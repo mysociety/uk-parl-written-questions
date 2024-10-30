@@ -1,0 +1,289 @@
+---
+name: commons_written_questions_interests
+title: Commons Written Questions Interests
+description: "Just written questions with a declared interest (after September 2023).\n"
+version: latest
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
+contributors:
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+- title: UK Parliament
+  path: https://www.parliament.uk/
+  role: author
+custom:
+  build: uk_parl_written_questions.fetch:create_dataset
+  tests:
+  - test_common_written_questions_interests
+  dataset_order: 1
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
+  formats:
+    csv: true
+    parquet: true
+    gpkg: false
+    geojson: false
+  is_geodata: false
+  composite:
+    xlsx:
+      include: all
+      exclude: none
+      render: true
+    sqlite:
+      include: all
+      exclude: none
+      render: true
+    json:
+      include: all
+      exclude: none
+      render: true
+  change_log:
+    0.1.0: Don't need to increment, first version
+  datasette:
+    about: Info & Downloads
+    about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0
+resources:
+- title: Written questions with interests declared
+  description: Republishing WQs since 2023-09 with interest declared
+  custom:
+    row_count: 303
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0#written_questions_interests
+  path: written_questions_interests.parquet
+  name: written_questions_interests
+  profile: data-resource
+  scheme: file
+  format: parquet
+  hashing: md5
+  encoding: utf-8
+  schema:
+    fields:
+    - name: id
+      type: integer
+      description: Internal Parliament ID for question
+      constraints:
+        unique: true
+      example: '1655883'
+    - name: askingMemberId
+      type: integer
+      description: MINS ID of the MP asking the question
+      constraints:
+        unique: false
+      example: '104'
+    - name: askingMember
+      type: string
+      description: Name of the MP asking the question
+      constraints:
+        unique: false
+      example: ''
+    - name: house
+      type: string
+      description: House of Parliament the question was asked in
+      constraints:
+        unique: false
+        enum:
+        - Commons
+      example: Commons
+    - name: memberHasInterest
+      type: boolean
+      description: Whether the MP asking the question has declared an interest
+      constraints:
+        unique: false
+        enum:
+        - true
+      example: 'True'
+    - name: dateTabled
+      type: string
+      description: Date the question was tabled
+      constraints:
+        unique: false
+      example: '2023-09-01T00:00:00'
+    - name: dateForAnswer
+      type: string
+      description: Date the question is due for answer
+      constraints:
+        unique: false
+      example: '2023-09-05T00:00:00'
+    - name: uin
+      type: string
+      description: Unique ID for the question (in combo with date)
+      constraints:
+        unique: false
+      example: '10055'
+    - name: questionText
+      type: string
+      description: The text of the question
+      constraints:
+        unique: true
+      example: To ask the Attorney General, whether all (a) buildings and (b) workplaces
+        staff from their Department occupy have a suitable and sufficient risk assessment
+        under Section 3 of the Management of Health and Safety at Work Regulations
+        1999.
+    - name: answeringBodyId
+      type: integer
+      description: MINS ID of the department answering the question
+      constraints:
+        unique: false
+      example: '1'
+    - name: answeringBodyName
+      type: string
+      description: Name of the department answering the question
+      constraints:
+        unique: false
+      example: Attorney General
+    - name: isWithdrawn
+      type: boolean
+      description: Whether the question has been withdrawn
+      constraints:
+        unique: false
+        enum:
+        - false
+      example: 'False'
+    - name: isNamedDay
+      type: boolean
+      description: Whether the question is a named day question
+      constraints:
+        unique: false
+        enum:
+        - false
+        - true
+      example: 'False'
+    - name: groupedQuestions
+      type: string
+      description: List of questions grouped together
+      constraints:
+        unique: false
+      example: '[]'
+    - name: answerIsHolding
+      type: string
+      description: Whether the answer is a holding answer
+      constraints:
+        unique: false
+      example: 'False'
+    - name: answerIsCorrection
+      type: string
+      description: Whether the answer is a correction
+      constraints:
+        unique: false
+      example: 'False'
+    - name: answeringMemberId
+      type: number
+      description: MINS ID of the MP answering the question
+      constraints:
+        unique: false
+      example: '39.0'
+    - name: answeringMember
+      type: string
+      description: Name of the MP answering the question
+      constraints:
+        unique: false
+      example: ''
+    - name: correctingMemberId
+      type: number
+      description: MINS ID of the MP correcting the answer
+      constraints:
+        unique: false
+      example: ''
+    - name: correctingMember
+      type: string
+      description: Name of the MP correcting the answer
+      constraints:
+        unique: false
+      example: ''
+    - name: dateAnswered
+      type: string
+      description: Date the question was answered
+      constraints:
+        unique: false
+      example: '2023-09-07T00:00:00'
+    - name: answerText
+      type: string
+      description: The text of the answer
+      constraints:
+        unique: false
+      example: ' On joining DWP, all members of staff must complete a DSE assessment,
+        which will highlight any special requirements specific to their role. Members
+        of staff are then required to revisit this assessment every 3 years or at
+        any time their circumstances chan...'
+    - name: originalAnswerText
+      type: string
+      description: The original text of the answer
+      constraints:
+        unique: false
+        enum:
+        - ''
+      example: ''
+    - name: comparableAnswerText
+      type: string
+      description: The text of the answer, with all whitespace removed
+      constraints:
+        unique: false
+        enum:
+        - ''
+      example: ''
+    - name: dateAnswerCorrected
+      type: string
+      description: Date the answer was corrected
+      constraints:
+        unique: false
+      example: ''
+    - name: dateHoldingAnswer
+      type: string
+      description: Date the holding answer was given
+      constraints:
+        unique: false
+      example: '2023-09-18T00:00:00'
+    - name: attachmentCount
+      type: integer
+      description: Number of attachments to the answer
+      constraints:
+        unique: false
+        enum:
+        - 0
+      example: '0'
+    - name: heading
+      type: string
+      description: The heading of the question
+      constraints:
+        unique: false
+      example: AI, Data, Robotics Forum
+    - name: attachments
+      type: string
+      description: List of attachments to the answer
+      constraints:
+        unique: false
+      example: '[]'
+    - name: groupedQuestionsDates
+      type: string
+      description: List of dates for grouped questions
+      constraints:
+        unique: false
+      example: '[]'
+    - name: twfy_id
+      type: string
+      description: TheyWorkForYou ID of the MP asking the question
+      constraints:
+        unique: false
+      example: '10045'
+    - name: person_name
+      type: string
+      description: Name of the MP asking the question
+      constraints:
+        unique: false
+      example: Alexander Stafford
+    - name: url
+      type: string
+      description: URL of the question on the UK Parliament website
+      constraints:
+        unique: true
+      example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
+  hash: 3fac41d9251d79acbe084a72ee8b09dd
+full_version: 0.1.0
+permalink: /datasets/commons_written_questions_interests/latest
+---

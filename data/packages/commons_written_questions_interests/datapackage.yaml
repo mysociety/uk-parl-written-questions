@@ -1,27 +1,22 @@
 name: commons_written_questions_interests
 title: Commons Written Questions Interests
-description : |
-  Just written questions with a declared interest (after September 2023).
+description: "Just written questions with a declared interest (after September 2023).\n"
 version: 0.1.0
 licenses:
-  
-  - name: CC-BY-4.0
-    path: https://creativecommons.org/licenses/by/4.0/
-    title: Creative Commons Attribution 4.0 International License
-  
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
 contributors:
-  - title: mySociety
-    path: https://mysociety.org
-    role: author
-  - title: UK Parliament
-    path: https://www.parliament.uk/
-    role: author
-
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+- title: UK Parliament
+  path: https://www.parliament.uk/
+  role: author
 custom:
-  build:
-      uk_parl_written_questions.fetch:create_dataset
+  build: uk_parl_written_questions.fetch:create_dataset
   tests:
-    - test_common_written_questions_interests
+  - test_common_written_questions_interests
   dataset_order: 1
   download_options:
     gate: default
@@ -46,4 +41,5 @@ custom:
       include: all
       exclude: none
       render: true
-
+  change_log:
+    0.1.0: Don't need to increment, first version

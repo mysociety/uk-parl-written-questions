@@ -1,27 +1,22 @@
 name: commons_written_questions
 title: Commons Written Questions
-description : |
-  Dataset of Parliamentary written question since 2023-09
+description: "Dataset of Parliamentary written question since 2023-09\n"
 version: 0.1.0
 licenses:
-  
-  - name: CC-BY-4.0
-    path: https://creativecommons.org/licenses/by/4.0/
-    title: Creative Commons Attribution 4.0 International License
-  
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
 contributors:
-  - title: mySociety
-    path: https://mysociety.org
-    role: author
-  - title: UK Parliament
-    path: https://www.parliament.uk/
-    role: author
-
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+- title: UK Parliament
+  path: https://www.parliament.uk/
+  role: author
 custom:
-  build:
-    uk_parl_written_questions.fetch:create_dataset
+  build: uk_parl_written_questions.fetch:create_dataset
   tests:
-    - test_commons_written_questions
+  - test_commons_written_questions
   dataset_order: 0
   download_options:
     gate: default
@@ -46,4 +41,5 @@ custom:
       include: all
       exclude: none
       render: false
-
+  change_log:
+    0.1.0: Don't need to increment, first version
