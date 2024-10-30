@@ -1,0 +1,49 @@
+name: commons_written_questions
+title: Commons Written Questions
+description : |
+  Dataset of Parliamentary written question since 2023-09
+version: 0.1.0
+licenses:
+  
+  - name: CC-BY-4.0
+    path: https://creativecommons.org/licenses/by/4.0/
+    title: Creative Commons Attribution 4.0 International License
+  
+contributors:
+  - title: mySociety
+    path: https://mysociety.org
+    role: author
+  - title: UK Parliament
+    path: https://www.parliament.uk/
+    role: author
+
+custom:
+  build:
+    uk_parl_written_questions.fetch:create_dataset
+  tests:
+    - test_commons_written_questions
+  dataset_order: 0
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
+  formats:
+    csv: true
+    parquet: true
+    gpkg: false
+    geojson: false
+  is_geodata: false
+  composite:
+    xlsx:
+      include: all
+      exclude: none
+      render: false
+    sqlite:
+      include: all
+      exclude: none
+      render: true
+    json:
+      include: all
+      exclude: none
+      render: false
+

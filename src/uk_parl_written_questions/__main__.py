@@ -1,5 +1,7 @@
 import rich_click as click
 
+from .fetch import create_dataset, get_all_data
+
 
 @click.group()
 def cli():
@@ -11,8 +13,13 @@ def main():
 
 
 @cli.command()
-def example():
-    print("This is an example function")
+def fetch():
+    get_all_data(force_recent=True)
+
+
+@cli.command()
+def create():
+    create_dataset()
 
 
 if __name__ == "__main__":
