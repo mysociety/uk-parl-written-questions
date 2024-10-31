@@ -27,7 +27,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 303
+                "row_count": 304
             },
             "name": "written_questions_interests",
             "profile": "data-resource",
@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "3fac41d9251d79acbe084a72ee8b09dd",
+            "hash": "2524a38b6979bbe2d6628713c27a1a2f",
             "data": [
                 {
                     "id": 1661367,
@@ -11700,6 +11700,41 @@
                     "twfy_id": "11592",
                     "person_name": "Sharon Hodgson",
                     "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-10-04/5960/"
+                },
+                {
+                    "id": 1738253,
+                    "askingMemberId": 4592,
+                    "askingMember": "",
+                    "house": "Commons",
+                    "memberHasInterest": true,
+                    "dateTabled": "2024-10-30T00:00:00",
+                    "dateForAnswer": "2024-11-04T00:00:00",
+                    "uin": "11938",
+                    "questionText": "To ask the Secretary of State for Health and Social Care, with reference to paragraph 2.40 of the Autumn Budget 2024, HC 295, published on 30 October 2024, what estimate he has made of the increased cost to the NHS (a) directly and (b) indirectly of the i",
+                    "answeringBodyId": 17,
+                    "answeringBodyName": "Department of Health and Social Care",
+                    "isWithdrawn": false,
+                    "isNamedDay": true,
+                    "groupedQuestions": [],
+                    "answerIsHolding": "",
+                    "answerIsCorrection": "",
+                    "answeringMemberId": "",
+                    "answeringMember": "",
+                    "correctingMemberId": "",
+                    "correctingMember": "",
+                    "dateAnswered": "",
+                    "answerText": "",
+                    "originalAnswerText": "",
+                    "comparableAnswerText": "",
+                    "dateAnswerCorrected": "",
+                    "dateHoldingAnswer": "",
+                    "attachmentCount": 0,
+                    "heading": "",
+                    "attachments": [],
+                    "groupedQuestionsDates": [],
+                    "twfy_id": "25597",
+                    "person_name": "Caroline Johnson",
+                    "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-10-30/11938/"
                 },
                 {
                     "id": 1737535,
