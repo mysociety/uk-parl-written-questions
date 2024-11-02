@@ -27,7 +27,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 304
+                "row_count": 305
             },
             "name": "written_questions_interests",
             "profile": "data-resource",
@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "5e348860872458efa110ca9e378724b6",
+            "hash": "93be4d425c3e23b56a1022145c562448",
             "data": [
                 {
                     "id": 1661367,
@@ -11745,9 +11745,9 @@
                     "dateTabled": "2024-10-28T00:00:00",
                     "dateForAnswer": "2024-10-30T00:00:00",
                     "uin": "11509",
-                    "questionText": "To ask the Minister for the Cabinet Office, what progress he has made on appointing a Ministerial lead for the UK's seat on the Open Government Partnership Steering Committee.",
-                    "answeringBodyId": 53,
-                    "answeringBodyName": "Cabinet Office",
+                    "questionText": "To ask the Secretary of State for Science, Innovation and Technology, what progress he has made on appointing a Ministerial lead for the UK's seat on the Open Government Partnership Steering Committee.",
+                    "answeringBodyId": 216,
+                    "answeringBodyName": "Department for Science, Innovation and Technology",
                     "isWithdrawn": false,
                     "isNamedDay": false,
                     "groupedQuestions": [],
@@ -11770,6 +11770,41 @@
                     "twfy_id": "26477",
                     "person_name": "Joe Powell",
                     "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-10-28/11509/"
+                },
+                {
+                    "id": 1738689,
+                    "askingMemberId": 3912,
+                    "askingMember": "",
+                    "house": "Commons",
+                    "memberHasInterest": true,
+                    "dateTabled": "2024-11-01T00:00:00",
+                    "dateForAnswer": "2024-11-05T00:00:00",
+                    "uin": "12252",
+                    "questionText": "To ask the Secretary of State for Culture, Media and Sport, if she will hold discussions with the Charity Commission on when the Commission plans to provide a substantive reply to the letter from the Conservative Party to the Commission of 14 June 2024, a",
+                    "answeringBodyId": 217,
+                    "answeringBodyName": "Department for Culture, Media and Sport",
+                    "isWithdrawn": false,
+                    "isNamedDay": false,
+                    "groupedQuestions": [],
+                    "answerIsHolding": "",
+                    "answerIsCorrection": "",
+                    "answeringMemberId": "",
+                    "answeringMember": "",
+                    "correctingMemberId": "",
+                    "correctingMember": "",
+                    "dateAnswered": "",
+                    "answerText": "",
+                    "originalAnswerText": "",
+                    "comparableAnswerText": "",
+                    "dateAnswerCorrected": "",
+                    "dateHoldingAnswer": "",
+                    "attachmentCount": 0,
+                    "heading": "",
+                    "attachments": [],
+                    "groupedQuestionsDates": [],
+                    "twfy_id": "24787",
+                    "person_name": "Richard Fuller",
+                    "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-11-01/12252/"
                 }
             ]
         }
