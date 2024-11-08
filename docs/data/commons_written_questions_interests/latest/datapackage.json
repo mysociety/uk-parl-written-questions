@@ -58,7 +58,7 @@
             }
         },
         "change_log": {
-            "0.1.0": "Change in data for resource(s): written_questions_interests"
+            "0.1.0": "Minor change in data for resource(s): written_questions_interests"
         },
         "datasette": {
             "about": "Info & Downloads",
@@ -406,7 +406,7 @@
                     }
                 ]
             },
-            "hash": "92da893a40ec03739f2bc0d94dca1680"
+            "hash": "abae14a2cb0a6c36bd1e25dcecf9233f"
         }
     ]
 }
