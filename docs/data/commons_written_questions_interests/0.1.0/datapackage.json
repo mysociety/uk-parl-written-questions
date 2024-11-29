@@ -70,7 +70,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 351,
+                "row_count": 357,
                 "datasette": {
                     "about": "Info & Downloads",
                     "about_url": "https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0#written_questions_interests"
@@ -406,7 +406,7 @@
                     }
                 ]
             },
-            "hash": "30457e0dbe3d843c553d7807f67a16b5"
+            "hash": "b0ebed22072b2c4ae73486056b92f072"
         }
     ]
 }
