@@ -58,7 +58,7 @@
             }
         },
         "change_log": {
-            "0.1.0": "Minor change in data for resource(s): written_questions_interests"
+            "0.1.0": "Change in data for resource(s): written_questions_interests"
         },
         "datasette": {
             "about": "Info & Downloads",
@@ -70,7 +70,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 391,
+                "row_count": 402,
                 "datasette": {
                     "about": "Info & Downloads",
                     "about_url": "https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0#written_questions_interests"
@@ -406,7 +406,7 @@
                     }
                 ]
             },
-            "hash": "6791c3add641af01b728c4f774ad5ec7"
+            "hash": "9c019459686747c6a69b432aa00e1bb4"
         }
     ]
 }
