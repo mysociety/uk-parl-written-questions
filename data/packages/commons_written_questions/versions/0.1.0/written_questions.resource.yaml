@@ -1,7 +1,7 @@
 title: Written question
 description: Republishing WQs since 2023-09
 custom:
-  row_count: 56685
+  row_count: 57122
 path: written_questions.parquet
 name: written_questions
 profile: data-resource
@@ -229,4 +229,4 @@ schema:
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: 6de78cf22a42b3fa502e34789ba18371
+hash: ff05412e27b7534465641471bf4e9d97
