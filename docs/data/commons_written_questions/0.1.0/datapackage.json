@@ -70,7 +70,7 @@
             "title": "Written question",
             "description": "Republishing WQs since 2023-09",
             "custom": {
-                "row_count": 58826,
+                "row_count": 59481,
                 "datasette": {
                     "about": "Info & Downloads",
                     "about_url": "https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions"
@@ -407,7 +407,7 @@
                     }
                 ]
             },
-            "hash": "a0c8c81fc694c201fd5392f3a90bdd76"
+            "hash": "c4f35ec6d3046b49beab7072363969bd"
         }
     ]
 }
