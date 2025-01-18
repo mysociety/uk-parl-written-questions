@@ -1,7 +1,7 @@
 title: Written question
 description: Republishing WQs since 2023-09
 custom:
-  row_count: 61234
+  row_count: 61418
 path: written_questions.parquet
 name: written_questions
 profile: data-resource
@@ -198,7 +198,7 @@ schema:
     description: The heading of the question
     constraints:
       unique: false
-    example: ' MOD St Athan'
+    example: ' Israel: Armed Conflict'
   - name: attachments
     type: string
     description: List of attachments to the answer
@@ -229,4 +229,4 @@ schema:
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: e0fc16124eccf7820f099d72b14be087
+hash: f409c8870d9f9afc37701f8b506c7316
