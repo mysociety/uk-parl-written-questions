@@ -1,7 +1,7 @@
 title: Written questions with interests declared
 description: Republishing WQs since 2023-09 with interest declared
 custom:
-  row_count: 587
+  row_count: 968
 path: written_questions_interests.parquet
 name: written_questions_interests
 profile: data-resource
@@ -67,7 +67,7 @@ schema:
     type: string
     description: The text of the question
     constraints:
-      unique: true
+      unique: false
     example: To ask the Attorney General, whether all (a) buildings and (b) workplaces
       staff from their Department occupy have a suitable and sufficient risk assessment
       under Section 3 of the Management of Health and Safety at Work Regulations 1999.
@@ -222,11 +222,11 @@ schema:
     description: Name of the MP asking the question
     constraints:
       unique: false
-    example: Alexander Stafford
+    example: Adam Jogee
   - name: url
     type: string
     description: URL of the question on the UK Parliament website
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: a7be53294c93a28027fb753be9b28f6a
+hash: fddc145798dbfd8c21d98dfab94f77c2
