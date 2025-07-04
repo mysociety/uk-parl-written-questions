@@ -27,7 +27,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 977
+                "row_count": 978
             },
             "name": "written_questions_interests",
             "profile": "data-resource",
@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "8bd0971cbdf80878f662f23227370d6e",
+            "hash": "2fbcce33a14beb3a4c01e3ac773f8bfb",
             "data": [
                 {
                     "id": 1661367,
@@ -36716,6 +36716,41 @@
                     "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-06-27/63485/"
                 },
                 {
+                    "id": 1819309,
+                    "askingMemberId": 5145,
+                    "askingMember": "",
+                    "house": "Commons",
+                    "memberHasInterest": true,
+                    "dateTabled": "2025-07-03T00:00:00",
+                    "dateForAnswer": "2025-07-08T00:00:00",
+                    "uin": "64911",
+                    "questionText": "To ask the Secretary of State for Science, Innovation and Technology, whether the forthcoming roadmap to phase out animal testing include plans to conduct systematic reviews to identify areas of research or disease models to phase out.",
+                    "answeringBodyId": 216,
+                    "answeringBodyName": "Department for Science, Innovation and Technology",
+                    "isWithdrawn": false,
+                    "isNamedDay": true,
+                    "groupedQuestions": [],
+                    "answerIsHolding": "",
+                    "answerIsCorrection": "",
+                    "answeringMemberId": "",
+                    "answeringMember": "",
+                    "correctingMemberId": "",
+                    "correctingMember": "",
+                    "dateAnswered": "",
+                    "answerText": "",
+                    "originalAnswerText": "",
+                    "comparableAnswerText": "",
+                    "dateAnswerCorrected": "",
+                    "dateHoldingAnswer": "",
+                    "attachmentCount": 0,
+                    "heading": "",
+                    "attachments": [],
+                    "groupedQuestionsDates": [],
+                    "twfy_id": "26419",
+                    "person_name": "Irene Campbell",
+                    "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-07-03/64911/"
+                },
+                {
                     "id": 1818997,
                     "askingMemberId": 5274,
                     "askingMember": "",
@@ -36953,7 +36988,7 @@
                     "dateAnswerCorrected": "",
                     "dateHoldingAnswer": "",
                     "attachmentCount": 0,
-                    "heading": "",
+                    "heading": "New Towns: Finance",
                     "attachments": [],
                     "groupedQuestionsDates": [],
                     "twfy_id": "26355",
@@ -36988,7 +37023,7 @@
                     "dateAnswerCorrected": "",
                     "dateHoldingAnswer": "",
                     "attachmentCount": 0,
-                    "heading": "",
+                    "heading": "Motor Vehicles: Sales",
                     "attachments": [],
                     "groupedQuestionsDates": [],
                     "twfy_id": "25701",
@@ -37023,7 +37058,7 @@
                     "dateAnswerCorrected": "",
                     "dateHoldingAnswer": "",
                     "attachmentCount": 0,
-                    "heading": "",
+                    "heading": "Health Services",
                     "attachments": [],
                     "groupedQuestionsDates": [],
                     "twfy_id": "26314",
