@@ -58,7 +58,7 @@
             }
         },
         "change_log": {
-            "0.1.0": "Minor change in data for resource(s): written_questions"
+            "0.1.0": "Change in data for resource(s): written_questions"
         },
         "datasette": {
             "about": "Info & Downloads",
@@ -70,7 +70,7 @@
             "title": "Written question",
             "description": "Republishing WQs since 2023-09",
             "custom": {
-                "row_count": 101644,
+                "row_count": 102137,
                 "datasette": {
                     "about": "Info & Downloads",
                     "about_url": "https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions"
@@ -407,7 +407,7 @@
                     }
                 ]
             },
-            "hash": "d32fbe8f4fbc3e13588c1baa7564df7d"
+            "hash": "4e3d5287ec5fe21a8bbed0204dd035c3"
         }
     ]
 }
