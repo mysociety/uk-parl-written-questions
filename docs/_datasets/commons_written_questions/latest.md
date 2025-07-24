@@ -43,7 +43,7 @@ custom:
       exclude: none
       render: false
   change_log:
-    0.1.0: 'Change in data for resource(s): written_questions'
+    0.1.0: 'Minor change in data for resource(s): written_questions'
   datasette:
     about: Info & Downloads
     about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0
@@ -68,7 +68,7 @@ resources:
       type: integer
       description: Internal Parliament ID for question
       constraints:
-        unique: true
+        unique: false
       example: '1655762'
     - name: askingMemberId
       type: integer
@@ -280,9 +280,9 @@ resources:
       type: string
       description: URL of the question on the Parliament website
       constraints:
-        unique: true
+        unique: false
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: 850a395d24c9f429e697aba05606d5c4
+  hash: d170d2c29b7d136cec665104b27ce9b3
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
