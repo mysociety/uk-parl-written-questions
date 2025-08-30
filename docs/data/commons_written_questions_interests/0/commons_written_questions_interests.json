@@ -27,7 +27,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 1034
+                "row_count": 1035
             },
             "name": "written_questions_interests",
             "profile": "data-resource",
@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "8406717c24d33286f53e1d81085f0664",
+            "hash": "fd45ab8a4bd2a708090c1dd684e8c791",
             "data": [
                 {
                     "id": 1661367,
@@ -39092,6 +39092,41 @@
                     "twfy_id": "25872",
                     "person_name": "Wendy Chamberlain",
                     "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-07-21/69381/"
+                },
+                {
+                    "id": 1827047,
+                    "askingMemberId": 3952,
+                    "askingMember": "",
+                    "house": "Commons",
+                    "memberHasInterest": true,
+                    "dateTabled": "2025-08-29T00:00:00",
+                    "dateForAnswer": "2025-09-02T00:00:00",
+                    "uin": "70382",
+                    "questionText": "To ask the Secretary of State for Culture, Media and Sport, what her Department's policy is on converting existing tennis courts to padel courts.",
+                    "answeringBodyId": 217,
+                    "answeringBodyName": "Department for Culture, Media and Sport",
+                    "isWithdrawn": false,
+                    "isNamedDay": false,
+                    "groupedQuestions": [],
+                    "answerIsHolding": "",
+                    "answerIsCorrection": "",
+                    "answeringMemberId": "",
+                    "answeringMember": "",
+                    "correctingMemberId": "",
+                    "correctingMember": "",
+                    "dateAnswered": "",
+                    "answerText": "",
+                    "originalAnswerText": "",
+                    "comparableAnswerText": "",
+                    "dateAnswerCorrected": "",
+                    "dateHoldingAnswer": "",
+                    "attachmentCount": 0,
+                    "heading": "",
+                    "attachments": [],
+                    "groupedQuestionsDates": [],
+                    "twfy_id": "24845",
+                    "person_name": "Toby Perkins",
+                    "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-08-29/70382/"
                 }
             ]
         }

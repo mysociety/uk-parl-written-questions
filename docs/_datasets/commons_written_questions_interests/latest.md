@@ -43,7 +43,7 @@ custom:
       exclude: none
       render: true
   change_log:
-    0.1.0: 'Minor change in data for resource(s): written_questions_interests'
+    0.1.0: 'Change in data for resource(s): written_questions_interests'
   datasette:
     about: Info & Downloads
     about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0
@@ -51,7 +51,7 @@ resources:
 - title: Written questions with interests declared
   description: Republishing WQs since 2023-09 with interest declared
   custom:
-    row_count: 1034
+    row_count: 1035
     datasette:
       about: Info & Downloads
       about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0#written_questions_interests
@@ -283,7 +283,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-  hash: 8406717c24d33286f53e1d81085f0664
+  hash: fd45ab8a4bd2a708090c1dd684e8c791
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions_interests/latest
 ---
