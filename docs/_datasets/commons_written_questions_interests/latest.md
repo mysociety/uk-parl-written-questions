@@ -43,7 +43,7 @@ custom:
       exclude: none
       render: true
   change_log:
-    0.1.0: 'Change in data for resource(s): written_questions_interests'
+    0.1.0: 'Minor change in data for resource(s): written_questions_interests'
   datasette:
     about: Info & Downloads
     about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions_interests/0_1_0
@@ -283,7 +283,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-  hash: 4c3e0be74212b69f47d22310df40a3a6
+  hash: 211e6b0128ca7dfe2e8215363e5cbd9e
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions_interests/latest
 ---
