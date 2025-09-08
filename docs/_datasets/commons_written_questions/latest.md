@@ -282,7 +282,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: 7a24e29e49276b08453b3ff34692e679
+  hash: d169d839056605699e1ac1e1d0fea509
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
