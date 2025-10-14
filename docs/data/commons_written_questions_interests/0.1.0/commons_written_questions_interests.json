@@ -27,7 +27,7 @@
             "title": "Written questions with interests declared",
             "description": "Republishing WQs since 2023-09 with interest declared",
             "custom": {
-                "row_count": 1113
+                "row_count": 1114
             },
             "name": "written_questions_interests",
             "profile": "data-resource",
@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "eb4c717bb79a00b1d6b19a0556f33f6f",
+            "hash": "170fbb32263a639e86c84b9fd22753e3",
             "data": [
                 {
                     "id": 1661367,
@@ -40973,6 +40973,41 @@
                     "twfy_id": "25362",
                     "person_name": "Mike Wood",
                     "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-09-09/76001/"
+                },
+                {
+                    "id": 1840209,
+                    "askingMemberId": 5100,
+                    "askingMember": "",
+                    "house": "Commons",
+                    "memberHasInterest": true,
+                    "dateTabled": "2025-10-13T00:00:00",
+                    "dateForAnswer": "2025-10-15T00:00:00",
+                    "uin": "81543",
+                    "questionText": "To ask the Secretary of State for Work and Pensions, if he will make an assessment of the potential impact of staffing levels in local government on the financial sustainability of the Local Government Pension Scheme.",
+                    "answeringBodyId": 29,
+                    "answeringBodyName": "Department for Work and Pensions",
+                    "isWithdrawn": false,
+                    "isNamedDay": false,
+                    "groupedQuestions": [],
+                    "answerIsHolding": "",
+                    "answerIsCorrection": "",
+                    "answeringMemberId": "",
+                    "answeringMember": "",
+                    "correctingMemberId": "",
+                    "correctingMember": "",
+                    "dateAnswered": "",
+                    "answerText": "",
+                    "originalAnswerText": "",
+                    "comparableAnswerText": "",
+                    "dateAnswerCorrected": "",
+                    "dateHoldingAnswer": "",
+                    "attachmentCount": 0,
+                    "heading": "",
+                    "attachments": [],
+                    "groupedQuestionsDates": [],
+                    "twfy_id": "26355",
+                    "person_name": "Blake Stephenson",
+                    "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-10-13/81543/"
                 },
                 {
                     "id": 1838831,
