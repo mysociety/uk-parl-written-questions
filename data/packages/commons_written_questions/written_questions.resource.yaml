@@ -198,7 +198,7 @@ schema:
     description: The heading of the question
     constraints:
       unique: false
-    example: ' Israel: Armed Conflict'
+    example: ' Department of Health and Social Care and Food Standards Agency: Finance'
   - name: attachments
     type: string
     description: List of attachments to the answer
@@ -229,4 +229,4 @@ schema:
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: 5a36af4856053e77605f528eadad8fc8
+hash: 3beebfdef7cd484bfdc5c38f6aa720ae
