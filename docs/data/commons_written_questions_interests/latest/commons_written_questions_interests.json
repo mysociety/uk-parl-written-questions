@@ -357,7 +357,7 @@
                     }
                 ]
             },
-            "hash": "4925d3f096dd16ffc75676d4b559569f",
+            "hash": "595f15ac662e87f798dfbdedc2e130bf",
             "data": [
                 {
                     "id": 1661367,
@@ -44451,9 +44451,9 @@
                     "dateTabled": "2025-11-11T00:00:00",
                     "dateForAnswer": "2025-11-13T00:00:00",
                     "uin": "89481",
-                    "questionText": "To ask the Chancellor of the Exchequer, with reference to page 18 of her Department's policy paper entitled Regulation Action Plan - Progress Update and Next Steps, updated in October 2025, whether the commitment to reduce the burden of regulation will ap",
-                    "answeringBodyId": 14,
-                    "answeringBodyName": "Treasury",
+                    "questionText": "To ask the Secretary of State for Business and Trade, with reference to page 18 of her Department's policy paper entitled Regulation Action Plan - Progress Update and Next Steps, updated in October 2025, whether the commitment to reduce the burden of regu",
+                    "answeringBodyId": 214,
+                    "answeringBodyName": "Department for Business and Trade",
                     "isWithdrawn": false,
                     "isNamedDay": false,
                     "groupedQuestions": [],
