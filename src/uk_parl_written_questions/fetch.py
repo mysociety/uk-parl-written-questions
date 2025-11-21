@@ -132,6 +132,9 @@ def create_dataset():
     df["twfy_id"] = people.apply(lambda x: x.reduced_id())
     df["person_name"] = people.apply(lambda x: x.names[-1].nice_name())
 
+    # drop askingMember column
+    df = df.drop(columns=["askingMember", "answeringMember", "correctingMember"])
+
     def make_url(date: str, uin: str):
         str_date = date.split("T")[0]
         return f"https://questions-statements.parliament.uk/written-questions/detail/{str_date}/{uin}/"
