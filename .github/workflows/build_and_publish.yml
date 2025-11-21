@@ -36,7 +36,8 @@ jobs:
             project fetch
             dataset build --all
             dataset version static --auto-ban major --all --publish
-            
+            dataset publish --all
+
       - name: Push new data
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4

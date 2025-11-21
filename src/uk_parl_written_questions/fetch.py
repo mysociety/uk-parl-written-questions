@@ -14,7 +14,10 @@ from mysoc_validator import Popolo
 start_year = 2023
 start_month = 9
 
+# Raw data is stored monthly and committed to git for caching
 data_dir = Path("data", "raw", "commons")
+# Large parquet files are generated from raw data during build process
+# These directories may not exist initially and are created as needed
 package_dir = Path("data", "packages", "commons_written_questions")
 interests_package = Path("data", "packages", "commons_written_questions_interests")
 
@@ -95,6 +98,8 @@ def get_data_for_month(month: Month, take_amount: int = 100, force: bool = True)
         last_has_contents = len(new_data) > 0
         skip += take_amount
 
+    # Ensure raw data directory exists
+    data_dir.mkdir(parents=True, exist_ok=True)
     file_path.write_text(json.dumps(data))
     return data
 
@@ -132,6 +137,10 @@ def create_dataset():
         return f"https://questions-statements.parliament.uk/written-questions/detail/{str_date}/{uin}/"
 
     df["url"] = df.apply(lambda x: make_url(x["dateTabled"], x["uin"]), axis=1)
+
+    # Ensure output directories exist
+    package_dir.mkdir(parents=True, exist_ok=True)
+    interests_package.mkdir(parents=True, exist_ok=True)
 
     df.to_parquet(package_dir / "written_questions.parquet")
 

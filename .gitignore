@@ -6,3 +6,8 @@ _render/_parts
 _render/_papermills
 docs/_site
 UNKNOWN.egg-info
+
+# Large generated parquet files - built from monthly raw data
+data/packages/commons_written_questions/written_questions.parquet
+data/packages/commons_written_questions_interests/written_questions_interests.parquet
+docs/data/
