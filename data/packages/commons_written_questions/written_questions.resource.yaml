@@ -1,7 +1,7 @@
 title: Written question
 description: Republishing WQs since 2023-09
 custom:
-  row_count: 137483
+  row_count: 138389
 path: written_questions.parquet
 name: written_questions
 profile: data-resource
@@ -99,7 +99,7 @@ schema:
     description: List of questions grouped together
     constraints:
       unique: false
-    example: "['10004' '10005']"
+    example: "['100019']"
   - name: answerIsHolding
     type: string
     description: Whether the answer is a holding answer
@@ -217,4 +217,4 @@ schema:
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: 302c6ac443e623a3be01cd119f3aa488
+hash: 14586070dfe04ea76c30ffb2d062a962
