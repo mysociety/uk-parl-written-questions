@@ -43,7 +43,7 @@ custom:
       exclude: none
       render: false
   change_log:
-    0.1.0: 'Minor change in data for resource(s): written_questions'
+    0.1.0: 'Change in data for resource(s): written_questions'
   datasette:
     about: Info & Downloads
     about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0
@@ -51,7 +51,7 @@ resources:
 - title: Written question
   description: Republishing WQs since 2023-09
   custom:
-    row_count: 144872
+    row_count: 145296
     datasette:
       about: Info & Downloads
       about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions
@@ -270,7 +270,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: a69f0574d01ce773968ef78801a8fab3
+  hash: 16661bf5941afdd621704994894a45f8
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
