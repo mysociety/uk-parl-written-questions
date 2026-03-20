@@ -1,7 +1,7 @@
 title: Written question
 description: Republishing WQs since 2023-09
 custom:
-  row_count: 158922
+  row_count: 159306
 path: written_questions.parquet
 name: written_questions
 profile: data-resource
@@ -15,7 +15,7 @@ schema:
     type: integer
     description: Internal Parliament ID for question
     constraints:
-      unique: true
+      unique: false
     example: '1655762'
   - name: askingMemberId
     type: integer
@@ -215,6 +215,6 @@ schema:
     type: string
     description: URL of the question on the Parliament website
     constraints:
-      unique: true
+      unique: false
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: f3fa558b8647b6c713e8dc320f04fd56
+hash: 782afbac91bb35754cf46c4dc6c9a97f
