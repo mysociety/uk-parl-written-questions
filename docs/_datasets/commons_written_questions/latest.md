@@ -51,7 +51,7 @@ resources:
 - title: Written question
   description: Republishing WQs since 2023-09
   custom:
-    row_count: 159306
+    row_count: 159476
     datasette:
       about: Info & Downloads
       about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions
@@ -68,7 +68,7 @@ resources:
       type: integer
       description: Internal Parliament ID for question
       constraints:
-        unique: false
+        unique: true
       example: '1655762'
     - name: askingMemberId
       type: integer
@@ -268,9 +268,9 @@ resources:
       type: string
       description: URL of the question on the Parliament website
       constraints:
-        unique: false
+        unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: 782afbac91bb35754cf46c4dc6c9a97f
+  hash: 8d42c784cda3f9a9e4b9d53302af186c
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
