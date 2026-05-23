@@ -107,6 +107,7 @@ schema:
       unique: false
       enum:
       - 'False'
+      - 'True'
     example: 'False'
   - name: answerIsCorrection
     type: string
@@ -223,4 +224,4 @@ schema:
     constraints:
       unique: true
     example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: dc676cc73c14822eabcc0a624f5a2734
+hash: c871079b57a035f5b7f10b531751f073
