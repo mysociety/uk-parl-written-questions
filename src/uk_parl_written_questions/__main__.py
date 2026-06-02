@@ -1,23 +1,26 @@
-import rich_click as click
+import typer
 
-from .fetch import create_dataset, get_all_data
+from .fetch import create_dataset, enrich_truncated_questions, get_all_data
 
-
-@click.group()
-def cli():
-    pass
+app = typer.Typer()
 
 
 def main():
-    cli()
+    app()
 
 
-@cli.command()
+@app.command()
 def fetch():
     get_all_data(force_recent=True)
 
 
-@cli.command()
+@app.command()
+def enrich():
+    data = get_all_data()
+    enrich_truncated_questions(data)
+
+
+@app.command()
 def create():
     create_dataset()
 

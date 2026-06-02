@@ -24,6 +24,9 @@ To build the datasets locally:
 # Fetch latest data (updates recent months)
 python -m src.uk_parl_written_questions fetch
 
+# Enrich truncated text (optional standalone step — also runs inside `create`)
+python -m src.uk_parl_written_questions enrich
+
 # Generate parquet files from raw data
 python -m src.uk_parl_written_questions create
 ```
@@ -32,11 +35,30 @@ The generated parquet files will be created in:
 - `data/packages/commons_written_questions/written_questions.parquet`
 - `data/packages/commons_written_questions_interests/written_questions_interests.parquet`
 
+### Long-form text enrichment
+
+The bulk Parliament API clips `questionText` and `answerText` at 255 characters. After loading
+raw data, the pipeline detects any field at exactly 255 characters and fetches the full text
+from the individual question endpoint:
+
+```
+https://questions-statements-api.parliament.uk/api/writtenquestions/questions/{id}
+```
+
+Results are cached in `data/raw/longform_cache` (a local SQLite file, not committed to git) so
+that subsequent runs serve from cache rather than re-fetching. Entries with an empty
+`answer_text` (question not yet answered at time of last fetch) are re-fetched on the next run
+in case an answer has since been added.
+
+Run `python -m src.uk_parl_written_questions enrich` as a standalone step to perform a
+historical catch-up before generating the parquet files. The `create` command runs enrichment
+automatically.
+
 ### Automated Build
 
 The GitHub Actions workflow automatically:
 1. Fetches the latest data
-2. Generates the parquet files
+2. Generates the parquet files (including long-form enrichment)
 3. Builds and publishes the website
 
 Instructions on using the features of this notebook (data publishing, notebook rendering, Github Pages) are available in [https://github.com/mysociety/data_common/blob/main/data-repo-readme.md](Data Common readme file).

@@ -11,3 +11,6 @@ UNKNOWN.egg-info
 data/packages/commons_written_questions/written_questions.parquet
 data/packages/commons_written_questions_interests/written_questions_interests.parquet
 docs/data/
+
+# Legacy single-file long-form cache (replaced by monthly files in data/raw/longform/)
+data/raw/longform_cache

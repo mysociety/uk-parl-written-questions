@@ -6,10 +6,14 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+import httpx
 import pandas as pd
 import requests
 import rich
 from mysoc_validator import Popolo
+from pydantic import BaseModel
+from pydantic_store import PydanticDBM
+from tqdm import tqdm
 
 start_year = 2023
 start_month = 9
@@ -20,6 +24,20 @@ data_dir = Path("data", "raw", "commons")
 # These directories may not exist initially and are created as needed
 package_dir = Path("data", "packages", "commons_written_questions")
 interests_package = Path("data", "packages", "commons_written_questions_interests")
+
+
+class StoredLongForm(BaseModel):
+    question_text: str
+    answer_text: str | None
+
+
+StorageDBM = PydanticDBM[StoredLongForm]
+
+longform_dir = Path("data", "raw", "longform")
+
+
+def _month_str(date_tabled: str) -> str:
+    return date_tabled[:7]
 
 
 @dataclass(eq=True, order=True)
@@ -116,8 +134,64 @@ def get_all_data(force_recent: bool = False):
     return data
 
 
+def fetch_single_question(internal_id: int | str) -> StoredLongForm | None:
+    url = f"https://questions-statements-api.parliament.uk/api/writtenquestions/questions/{internal_id}"
+    try:
+        response = httpx.get(url, timeout=30)
+        if response.status_code != 200:
+            rich.print(
+                f"[yellow]Warning: {response.status_code} for question {internal_id}[/yellow]"
+            )
+            return None
+        value = response.json()["value"]
+        return StoredLongForm(
+            question_text=value["questionText"],
+            answer_text=value.get("answerText"),
+        )
+    except Exception as e:
+        rich.print(f"[red]Error fetching question {internal_id}: {e}[/red]")
+        return None
+
+
+def enrich_truncated_questions(data: list[dict]) -> list[dict]:
+    longform_dir.mkdir(parents=True, exist_ok=True)
+    to_enrich = [
+        item
+        for item in data
+        if len(item["value"].get("questionText") or "") == 255
+        or len(item["value"].get("answerText") or "") == 255
+    ]
+    rich.print(
+        f"[blue]Found {len(to_enrich)} entries with potentially truncated text[/blue]"
+    )
+    months_needed = {_month_str(item["value"]["dateTabled"]) for item in to_enrich}
+    caches = {
+        m: StorageDBM(longform_dir / f"{m}.sqlite", flag="c") for m in months_needed
+    }
+    for item in tqdm(to_enrich, desc="Enriching truncated questions", unit="q"):
+        val = item["value"]
+        internal_id = str(val["id"])
+        cache = caches[_month_str(val["dateTabled"])]
+        q_truncated = len(val.get("questionText") or "") == 255
+        a_truncated = len(val.get("answerText") or "") == 255
+        cached = cache.get(internal_id)
+        needs_fetch = cached is None or (a_truncated and not cached.answer_text)
+        if needs_fetch:
+            fetched = fetch_single_question(internal_id)
+            if fetched:
+                cache[internal_id] = fetched
+                cached = fetched
+        if cached:
+            if q_truncated:
+                val["questionText"] = cached.question_text
+            if a_truncated and cached.answer_text:
+                val["answerText"] = cached.answer_text
+    return data
+
+
 def create_dataset():
     data = get_all_data()
+    data = enrich_truncated_questions(data)
     df = pd.DataFrame([x["value"] for x in data])
 
     popolo = Popolo.from_parlparse()
