@@ -17,7 +17,7 @@ pydantic-store = "^0.1.0"
 httpx = "^0.28.1"
 tqdm = "^4.67.3"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^7.1.1"
 
 [tool.poetry.scripts]
