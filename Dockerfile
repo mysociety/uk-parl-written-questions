@@ -10,6 +10,6 @@ RUN mkdir /setup/src/$WORKSPACE_NAME \
     && mkdir --parents /setup/src/data_common/src/data_common \
     && touch /setup/src/data_common/src/data_common/__init__.py \
     && export PATH="/root/.local/bin:$PATH" \
-    && cd /setup/ && poetry install \
+    && cd /setup/ && poetry self update && poetry install \
     && echo "/workspaces/$WORKSPACE_NAME/src/" > /usr/local/lib/python3.10/site-packages/$WORKSPACE_NAME.pth \
     && echo "/workspaces/$WORKSPACE_NAME/src/data_common/src" > /usr/local/lib/python3.10/site-packages/data_common.pth
