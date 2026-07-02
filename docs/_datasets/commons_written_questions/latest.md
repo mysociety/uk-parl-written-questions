@@ -51,7 +51,7 @@ resources:
 - title: Written question
   description: Republishing WQs since 2023-09
   custom:
-    row_count: 172568
+    row_count: 182411
     datasette:
       about: Info & Downloads
       about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions
@@ -116,8 +116,9 @@ resources:
       description: The text of the question
       constraints:
         unique: false
-      example: How many and what proportion of households have applied to the Great
-        British Insulation Scheme.
+      example: ?To ask the Secretary of State for Science, Innovation and Technology,
+        what assessment she has made of the adequacy of broadband provision in historic
+        town centres.
     - name: answeringBodyId
       type: integer
       description: MINS ID of the department answering the question
@@ -152,7 +153,7 @@ resources:
       description: List of questions grouped together
       constraints:
         unique: false
-      example: "['100001']"
+      example: "['10000' '10002']"
     - name: answerIsHolding
       type: string
       description: Whether the answer is a holding answer
@@ -270,7 +271,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: 4ff34d129d8df8fd689f54c0ec310154
+  hash: 90dae2afe95a5caec15fed2e1e27e671
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
