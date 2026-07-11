@@ -51,7 +51,7 @@ resources:
 - title: Written question
   description: Republishing WQs since 2023-09
   custom:
-    row_count: 184867
+    row_count: 185110
     datasette:
       about: Info & Downloads
       about_url: https://pages.mysociety.org/uk_parl_written_questions/datasets/commons_written_questions/0_1_0#written_questions
@@ -271,7 +271,7 @@ resources:
       constraints:
         unique: true
       example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-  hash: 64b1b615582c096cb274867c8366e387
+  hash: 0a3f244155e97594b44264ed485fb61a
 full_version: 0.1.0
 permalink: /datasets/commons_written_questions/latest
 ---
