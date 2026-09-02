@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    working_dir: /workspaces/uk_parl_written_questions      
+    working_dir: /workspaces/uk_parl_written_questions
     volumes:
       - ./:/workspaces/uk_parl_written_questions/
+      - /workspaces/uk_parl_written_questions/.venv
