@@ -35,6 +35,24 @@ StorageDBM = PydanticDBM[StoredLongForm]
 
 longform_dir = Path("data", "raw", "longform")
 
+# PydanticDBM creates a store 0o600, and these are committed to the repository:
+# the build runs as root inside the container, but the workflow step that
+# commits the result runs as the host user, which then cannot read them.
+CACHE_FILE_MODE = 0o644
+
+
+def open_longform_cache(month: str) -> StorageDBM:
+    """
+    Open the long-form cache for a month, readable by the committing user.
+    """
+    path = longform_dir / f"{month}.sqlite"
+    cache = StorageDBM(path, flag="c", mode=CACHE_FILE_MODE)
+    # a store written before the mode was set keeps the permissions it was
+    # created with, so bring an existing file up to the same mode
+    if path.stat().st_mode & CACHE_FILE_MODE != CACHE_FILE_MODE:
+        path.chmod(CACHE_FILE_MODE)
+    return cache
+
 
 def _month_str(date_tabled: str) -> str:
     return date_tabled[:7]
@@ -165,9 +183,7 @@ def enrich_truncated_questions(data: list[dict]) -> list[dict]:
         f"[blue]Found {len(to_enrich)} entries with potentially truncated text[/blue]"
     )
     months_needed = {_month_str(item["value"]["dateTabled"]) for item in to_enrich}
-    caches = {
-        m: StorageDBM(longform_dir / f"{m}.sqlite", flag="c") for m in months_needed
-    }
+    caches = {m: open_longform_cache(m) for m in months_needed}
     for item in tqdm(to_enrich, desc="Enriching truncated questions", unit="q"):
         val = item["value"]
         internal_id = str(val["id"])
