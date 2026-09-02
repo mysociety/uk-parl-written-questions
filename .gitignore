@@ -5,7 +5,6 @@ data/private/*
 _render/_parts
 _render/_papermills
 UNKNOWN.egg-info
-_site/
 
 # Large generated parquet files - built from monthly raw data
 data/packages/commons_written_questions/written_questions.parquet
@@ -13,3 +12,5 @@ data/packages/commons_written_questions_interests/written_questions_interests.pa
 
 # Legacy single-file long-form cache (replaced by monthly files in data/raw/longform/)
 data/raw/longform_cache
+_site/
+data/packages/_published/

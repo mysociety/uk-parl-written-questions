@@ -52,7 +52,7 @@ default_page_title = "Settings file defined title"
 
 [tool.dataset]
 dataset_dir = "data/packages"
-publish_dir = "docs/"
+publish_dir = "data/packages/_published"
 publish_url = "https://pages.mysociety.org/uk_parl_written_questions/"
 credit_text = "If you find this data useful, please let us know to help us make the case for future funding."
 credit_url = "https://survey.alchemer.com/s3/6876792/Data-usage"
@@ -86,3 +86,24 @@ section-order = [
 
 [tool.ruff.lint.isort.sections]
 django = ["django"]
+
+[tool.dataset.site]
+title = "uk-parl-written-questions"
+description = "Dataset view of questions"
+intro = "Dataset view of questions"
+base_url = "/uk-parl-written-questions"
+canonical_url = "https://pages.mysociety.org/uk-parl-written-questions"
+source_url = "https://github.com/mysociety/uk-parl-written-questions"
+output_dir = "_site"
+accent_colour = "#4faded"
+
+[tool.dataset.site.downloads]
+gate = "soft"
+survey = "6876792/Data-usage"
+form_header = "Can you help us with funding by telling us more about yourself?"
+show_code_examples = true
+show_subscription = true
+
+[tool.dataset.site.analysis]
+enabled = true
+bundle_dir = "_render/site/analysis"
