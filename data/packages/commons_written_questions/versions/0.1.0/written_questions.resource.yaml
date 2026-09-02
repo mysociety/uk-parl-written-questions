@@ -1,7 +1,7 @@
 title: Written question
 description: Republishing WQs since 2023-09
 custom:
-  row_count: 186984
+  row_count: 193678
 path: written_questions.parquet
 name: written_questions
 profile: data-resource
@@ -15,7 +15,7 @@ schema:
     type: integer
     description: Internal Parliament ID for question
     constraints:
-      unique: true
+      unique: false
     example: '1655762'
   - name: askingMemberId
     type: integer
@@ -63,9 +63,9 @@ schema:
     description: The text of the question
     constraints:
       unique: false
-    example: ?To ask the Secretary of State for Science, Innovation and Technology,
-      what assessment she has made of the adequacy of broadband provision in historic
-      town centres.
+    example: ?To ask the Secretary of State for Science, Innovation and
+      Technology, what assessment she has made of the adequacy of broadband
+      provision in historic town centres.
   - name: answeringBodyId
     type: integer
     description: MINS ID of the department answering the question
@@ -96,28 +96,22 @@ schema:
       - true
     example: 'False'
   - name: groupedQuestions
-    type: string
+    type: any
     description: List of questions grouped together
     constraints:
       unique: false
     example: "['10000' '10002']"
   - name: answerIsHolding
-    type: string
+    type: boolean
     description: Whether the answer is a holding answer
     constraints:
       unique: false
-      enum:
-      - 'False'
-      - 'True'
     example: 'False'
   - name: answerIsCorrection
-    type: string
+    type: boolean
     description: Whether the answer is a correction
     constraints:
       unique: false
-      enum:
-      - 'False'
-      - 'True'
     example: 'False'
   - name: answeringMemberId
     type: number
@@ -189,13 +183,13 @@ schema:
       unique: false
     example: ' Department of Health and Social Care and Food Standards Agency: Finance'
   - name: attachments
-    type: string
+    type: any
     description: List of attachments to the answer
     constraints:
       unique: false
     example: '[]'
   - name: groupedQuestionsDates
-    type: string
+    type: any
     description: List of dates for grouped questions
     constraints:
       unique: false
@@ -216,6 +210,7 @@ schema:
     type: string
     description: URL of the question on the Parliament website
     constraints:
-      unique: true
-    example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
-hash: e1e215b52009328ed56a113096882773
+      unique: false
+    example:
+      https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195613/
+hash: bd721066c0316658f518bd9805d2cd9d

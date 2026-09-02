@@ -18,22 +18,14 @@ custom:
   tests:
   - test_common_written_questions_interests
   dataset_order: 1
-  download_options:
-    gate: default
-    survey: default
-    header_text: default
+  is_geodata: false
   formats:
     csv: true
     parquet: true
-    gpkg: false
     geojson: false
-  is_geodata: false
+    gpkg: false
   composite:
     xlsx:
-      include: all
-      exclude: none
-      render: true
-    sqlite:
       include: all
       exclude: none
       render: true
@@ -41,5 +33,13 @@ custom:
       include: all
       exclude: none
       render: true
+    sqlite:
+      include: all
+      exclude: none
+      render: true
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
   change_log:
-    0.1.0: 'Minor change in data for resource(s): written_questions_interests'
+    0.1.0: 'Existing resource field(s) type changed: groupedQuestions,answerIsHolding,answerIsCorrection,attachments,groupedQuestionsDates'

@@ -1,7 +1,7 @@
 title: Written questions with interests declared
 description: Republishing WQs since 2023-09 with interest declared
 custom:
-  row_count: 1890
+  row_count: 1927
 path: written_questions_interests.parquet
 name: written_questions_interests
 profile: data-resource
@@ -15,7 +15,7 @@ schema:
     type: integer
     description: Internal Parliament ID for question
     constraints:
-      unique: true
+      unique: false
     example: '1655883'
   - name: askingMemberId
     type: integer
@@ -62,9 +62,10 @@ schema:
     description: The text of the question
     constraints:
       unique: false
-    example: To ask the Attorney General, whether all (a) buildings and (b) workplaces
-      staff from their Department occupy have a suitable and sufficient risk assessment
-      under Section 3 of the Management of Health and Safety at Work Regulations 1999.
+    example: To ask the Attorney General, whether all (a) buildings and (b)
+      workplaces staff from their Department occupy have a suitable and
+      sufficient risk assessment under Section 3 of the Management of Health and
+      Safety at Work Regulations 1999.
   - name: answeringBodyId
     type: integer
     description: MINS ID of the department answering the question
@@ -95,27 +96,22 @@ schema:
       - true
     example: 'False'
   - name: groupedQuestions
-    type: string
+    type: any
     description: List of questions grouped together
     constraints:
       unique: false
     example: "['100308']"
   - name: answerIsHolding
-    type: string
+    type: boolean
     description: Whether the answer is a holding answer
     constraints:
       unique: false
-      enum:
-      - 'False'
     example: 'False'
   - name: answerIsCorrection
-    type: string
+    type: boolean
     description: Whether the answer is a correction
     constraints:
       unique: false
-      enum:
-      - 'False'
-      - 'True'
     example: 'False'
   - name: answeringMemberId
     type: number
@@ -128,10 +124,6 @@ schema:
     description: MINS ID of the MP correcting the answer
     constraints:
       unique: false
-      enum:
-      - .nan
-      - 4264.0
-      - 4359.0
     example: '4264.0'
   - name: dateAnswered
     type: string
@@ -169,9 +161,6 @@ schema:
     description: Date the answer was corrected
     constraints:
       unique: false
-      enum:
-      - '2024-12-09T00:00:00'
-      - '2026-01-05T00:00:00'
     example: '2024-12-09T00:00:00'
   - name: dateHoldingAnswer
     type: string
@@ -194,13 +183,13 @@ schema:
       unique: false
     example: 'A10: Ely and East Cambridgeshire'
   - name: attachments
-    type: string
+    type: any
     description: List of attachments to the answer
     constraints:
       unique: false
     example: '[]'
   - name: groupedQuestionsDates
-    type: string
+    type: any
     description: List of dates for grouped questions
     constraints:
       unique: false
@@ -221,6 +210,7 @@ schema:
     type: string
     description: URL of the question on the UK Parliament website
     constraints:
-      unique: true
-    example: https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: 393bc01d6c8105cc3fc1f82305e05ba2
+      unique: false
+    example:
+      https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
+hash: 2b9db15130476e0f265a8d154ccbface
