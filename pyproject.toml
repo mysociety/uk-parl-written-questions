@@ -53,7 +53,7 @@ default_page_title = "Settings file defined title"
 [tool.dataset]
 dataset_dir = "data/packages"
 publish_dir = "data/packages/_published"
-publish_url = "https://pages.mysociety.org/uk_parl_written_questions/"
+publish_url = "https://pages.mysociety.org/uk-parl-written-questions/"
 credit_text = "If you find this data useful, please let us know to help us make the case for future funding."
 credit_url = "https://survey.alchemer.com/s3/6876792/Data-usage"
 
