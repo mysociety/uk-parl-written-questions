@@ -1934,7 +1934,7 @@ wheels = [
 
 [[package]]
 name = "mysoc-validator"
-version = "1.5.0"
+version = "1.5.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -1949,9 +1949,9 @@ dependencies = [
     { name = "typer" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b8/0c/d8b15b3c644856c967786a5cbcff4cfa10824542a35d20cbf6f6f1a569d3/mysoc_validator-1.5.0.tar.gz", hash = "sha256:d69af14007338ab934a1adfec3f43c5c4c68a3ee8051acb5dc3256ee0b4da0af", size = 46301, upload-time = "2026-08-25T09:52:27.876Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/49/41/4cda5b57b1e8487a8b9c4268a8cd96aba934e79f5d0c79dd934df230556d/mysoc_validator-1.5.1.tar.gz", hash = "sha256:2b6948df8a53b8e2fd2f779c3cf8862bc263b1c7f7480e8c75a6270ed8b41c43", size = 46674, upload-time = "2026-09-02T11:12:08.719Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4c/56/1a559979f6808bed1ccec23c995feb2a6736fecb1b749a2228892c30a6e2/mysoc_validator-1.5.0-py3-none-any.whl", hash = "sha256:be657dda5cd63ba571aadd7bb24fb520dfb846c5e82c726b2b35e26d436c0225", size = 51099, upload-time = "2026-08-25T09:52:26.817Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/57/17339a35be5af750c155278e163372ff0c15a16a0cb90e0e8c509f25afed/mysoc_validator-1.5.1-py3-none-any.whl", hash = "sha256:dbec820afc7c393cd446bdd8778b0c023de1bd1fa6356f4e484db74073911b50", size = 51652, upload-time = "2026-09-02T11:12:07.233Z" },
 ]
 
 [[package]]
@@ -3660,7 +3660,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.1,<8.2" },
     { name = "data-common", extras = ["dataset"], editable = "src/data_common" },
     { name = "httpx", specifier = ">=0.28.1,<0.29" },
-    { name = "mysoc-validator", specifier = ">=1.3.1,<2" },
+    { name = "mysoc-validator", specifier = ">=1.5.1,<2" },
     { name = "pydantic-store", specifier = ">=0.1.0,<0.2" },
     { name = "tqdm", specifier = ">=4.67.3,<5" },
 ]
