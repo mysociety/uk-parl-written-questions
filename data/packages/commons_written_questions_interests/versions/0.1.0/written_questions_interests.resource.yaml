@@ -1,7 +1,7 @@
 title: Written questions with interests declared
 description: Republishing WQs since 2023-09 with interest declared
 custom:
-  row_count: 1952
+  row_count: 1945
 path: written_questions_interests.parquet
 name: written_questions_interests
 profile: data-resource
@@ -15,7 +15,7 @@ schema:
     type: integer
     description: Internal Parliament ID for question
     constraints:
-      unique: true
+      unique: false
     example: '1655883'
   - name: askingMemberId
     type: integer
@@ -210,7 +210,7 @@ schema:
     type: string
     description: URL of the question on the UK Parliament website
     constraints:
-      unique: true
+      unique: false
     example:
       https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: bb7fdfd2080e6990a266c6f2a38a3d2e
+hash: 09e4cd1c04e6ca59e2c9055b797f3e88
