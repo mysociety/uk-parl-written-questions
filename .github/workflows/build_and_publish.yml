@@ -32,7 +32,8 @@ jobs:
             script/test
             project fetch
             dataset build --all
-            dataset version static --auto-ban major --all --publish
+            dataset version static --auto-ban major --all
+            dataset publish --all
             dataset site build
       - name: Configure credentials for automated push
         shell: bash
