@@ -1,7 +1,7 @@
 title: Written questions with interests declared
 description: Republishing WQs since 2023-09 with interest declared
 custom:
-  row_count: 2036
+  row_count: 2040
 path: written_questions_interests.parquet
 name: written_questions_interests
 profile: data-resource
@@ -205,7 +205,7 @@ schema:
     description: Name of the MP asking the question
     constraints:
       unique: false
-    example: Adam Jogee
+    example: Abena Oppong-Asare
   - name: url
     type: string
     description: URL of the question on the UK Parliament website
@@ -213,4 +213,4 @@ schema:
       unique: true
     example:
       https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: 6eb976430ae5731955739351f029ebd9
+hash: 7cb2951dca0b2c5c5593679ecdec7477
