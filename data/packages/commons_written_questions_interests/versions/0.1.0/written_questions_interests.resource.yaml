@@ -15,7 +15,7 @@ schema:
     type: integer
     description: Internal Parliament ID for question
     constraints:
-      unique: true
+      unique: false
     example: '1655883'
   - name: askingMemberId
     type: integer
@@ -210,7 +210,7 @@ schema:
     type: string
     description: URL of the question on the UK Parliament website
     constraints:
-      unique: true
+      unique: false
     example:
       https://questions-statements.parliament.uk/written-questions/detail/2023-09-01/195760/
-hash: b8f0aab44639e2c884830ce2f26c82b3
+hash: 2f31b5dd600ea28061241ad13904962d

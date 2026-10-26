@@ -1,6 +1,7 @@
 name: commons_written_questions_performance
 title: Commons Written Questions Performance
-description: Government department performance for questions tabled in the last 30 and 90 days.
+description: Government department performance for questions tabled in the last 
+  30 and 90 days.
 version: 0.1.0
 licenses:
 - name: CC-BY-4.0
@@ -23,3 +24,5 @@ custom:
       render: false
     sqlite:
       render: false
+  change_log:
+    0.1.0: Don't need to increment, first version
