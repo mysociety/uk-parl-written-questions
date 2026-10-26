@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Department performance - {{ site_settings.title }}{% endblock %}
+
+{% macro metric_cell(row, column) -%}
+  {% if column.name == 'on_time_rate' %}
+    {% set rate = row.on_time_rate %}
+    <td data-order="{{ rate if rate is not none else -1 }}">
+      {%- if rate is not none -%}
+        {{ '%.1f'|format(rate) }}%
+      {%- else -%}
+        <span title="No answered or overdue questions to assess">—</span>
+      {%- endif -%}
+    </td>
+  {% else %}
+    <td>{{ row|attr(column.name) }}</td>
+  {% endif %}
+{%- endmacro %}
+
+{% block styles %}
+<link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-3.0.4/datatables.min.css">
+<link rel="stylesheet" href="{{ url_for('performance.static', filename='table.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1>Written questions: department performance</h1>
+<p>Questions tabled in the last {{ selection.days }} days, assessed on <strong>{{ dataset.as_of_date }}</strong>.</p>
+{% if dataset.source_refreshed_at %}
+<p class="performance-freshness">Source cache refreshed: {{ dataset.source_refreshed_at.isoformat() }}.</p>
+{% endif %}
+{% include "performance/controls.html" %}
+<div id="performance-tables">
+  {% for table in tables %}
+    <section id="{{ table.anchor }}" class="performance-section" aria-labelledby="{{ table.anchor }}-heading">
+        <h2 id="{{ table.anchor }}-heading">{{ table.title }} — last {{ selection.days }} days</h2>
+        <p>{{ table.description }}</p>
+      <div class="performance-scroll" role="region" aria-labelledby="{{ table.anchor }}-heading" tabindex="0">
+        <table id="{{ table.question_type }}-table" class="performance-table"
+               data-question-type="{{ table.question_type }}" data-anchor="{{ table.anchor }}"
+               data-current-sort="{{ table.order.sort }}"
+               data-current-direction="{{ table.order.direction }}">
+          <caption>{{ table.title }} tabled {{ table.total.period_start }} to {{ table.total.period_end }}, inclusive</caption>
+          <thead>
+            <tr>
+              {% for column in columns %}
+                {% set active = table.order.sort == column.name %}
+                <th scope="col"
+                    {% if active %}aria-sort="{{ 'ascending' if table.order.direction == 'asc' else 'descending' }}"{% endif %}>
+                  <button type="button" disabled data-sort="{{ column.name }}"
+                     data-label="{{ column.label }}"
+                     data-default-direction="{{ column.direction }}"
+                     data-direction="{{ table.order.for_column(column).direction }}"
+                     >{{ column.label }}<span class="sort-indicator" aria-hidden="true">{% if active %}{{ ' ↑' if table.order.direction == 'asc' else ' ↓' }}{% endif %}</span></button>
+                </th>
+              {% endfor %}
+            </tr>
+            <tr class="performance-total" data-dt-order="disable">
+              <th scope="row">All departments</th>
+              {% for column in columns[1:] %}
+                {{ metric_cell(table.total, column) }}
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody id="{{ table.question_type }}-departments">
+            {% for entry in table.rows %}
+              <tr>
+                <th scope="row" data-order="{{ entry.rank }}">{{ entry.row.department }}</th>
+                {% for column in columns[1:] %}
+                  {{ metric_cell(entry.row, column) }}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% if not table.rows %}
+        <p>No eligible government questions were found in this snapshot.</p>
+      {% elif table.total.received_count == 0 %}
+        <p>No {{ table.title|lower }} were tabled in this period.</p>
+      {% endif %}
+      <p id="{{ table.question_type }}-sort-status" class="visually-hidden" aria-live="polite"></p>
+    </section>
+  {% endfor %}
+</div>
+{% include "performance/methodology.html" %}
+<p><a href="{{ site_path('performance/performance.json') }}" download>Download performance data (JSON)</a></p>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.datatables.net/v/dt/dt-3.0.4/datatables.min.js" defer></script>
+<script src="{{ url_for('performance.static', filename='table.js') }}" defer></script>
+{% endblock %}

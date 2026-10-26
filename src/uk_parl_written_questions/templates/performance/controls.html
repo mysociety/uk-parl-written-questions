@@ -1,0 +1,24 @@
+<nav class="performance-contents" aria-labelledby="performance-contents-heading">
+  <h2 id="performance-contents-heading">Contents</h2>
+  <ol class="performance-contents-pages">
+    {% for view, title in [('departments', 'Department performance'), ('overdue', 'How overdue are questions?')] %}
+      {% for days in periods %}
+        {% set target = selection.for_view(view).for_period(days) %}
+        {% set current = selection.view == view and selection.days == days %}
+        <li>
+          <a href="{{ site_path(target.path) }}"
+             {% if selection.view == view %}data-period="{{ days }}"{% endif %}
+             {% if current %}aria-current="page"{% endif %}>{{ title }} — last {{ days }} days</a>
+          {% if current %}
+            <span class="performance-contents-current">(current page)</span>
+            <ul class="performance-contents-sections">
+              {% for table in tables %}
+                <li><a href="#{{ table.anchor }}">{{ table.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ol>
+</nav>

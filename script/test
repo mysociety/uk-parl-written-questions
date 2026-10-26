@@ -3,6 +3,7 @@
 echo "--------------"
 echo "Running pytest"
 echo "--------------"
+npm ci --ignore-scripts --no-audit --no-fund || exit 1
 uv run pytest
 pytestexit=$?
 echo "--------------"

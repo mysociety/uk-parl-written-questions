@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}{{ selection.title }} — {{ selection.status|capitalize }} - {{ site_settings.title }}{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('performance.static', filename='table.css') }}">
+{% endblock %}
+
+{% block content %}
+<p><a href="{{ site_path(selection.grid_path) }}#{{ selection.anchor }}">Back to the overdue grid</a></p>
+<h1>{{ selection.title }}</h1>
+<p><strong>{{ selection.status|capitalize }}</strong> · tabled in the last {{ selection.days }} days · assessed on <strong>{{ dataset.as_of_date }}</strong>.</p>
+<p>{{ questions|length }} {{ 'question' if questions|length == 1 else 'questions' }}. Status and delays reflect this saved assessment; Parliament’s pages may show later updates.</p>
+<p><a href="{{ site_path(selection.grid_path) }}#methodology">How we measure timeliness</a></p>
+<div class="performance-scroll" role="region" aria-label="Overdue questions" tabindex="0">
+  <table class="performance-table question-list">
+    <caption>{{ selection.status|capitalize }} questions behind the overdue count</caption>
+    <thead>
+      <tr>
+        <th scope="col">Question</th>
+        <th scope="col">Department</th>
+        <th scope="col">Tabled</th>
+        <th scope="col">Response target</th>
+        {% if selection.status == 'answered' %}<th scope="col">Answered</th>{% endif %}
+        <th scope="col">Working days overdue</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for question in questions %}
+      <tr data-question-id="{{ question.id }}">
+        <th scope="row">
+          {% if question.parliament_url %}<a href="{{ question.parliament_url }}">Question {{ question.uin }}</a>{% else %}Question {{ question.id }}{% endif %}
+          {% if question.text %}<p class="question-excerpt">{{ question.text|truncate(220) }}</p>{% endif %}
+        </th>
+        <td>{{ question.department }}</td>
+        <td class="question-date">{{ question.tabled }}</td>
+        <td class="question-date">{{ question.target }}</td>
+        {% if selection.status == 'answered' %}<td class="question-date">{{ question.answered }}</td>{% endif %}
+        <td>{{ question.days_overdue if question.days_overdue else 'Less than 1' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

@@ -1,0 +1,116 @@
+title: Rolling written question performance
+description: Government department counts for 30- and 90-day tabling cohorts,
+  assessed using substantive answers available in the source cache.
+custom:
+  row_count: 88
+name: performance
+type: table
+path: performance.parquet
+scheme: file
+format: parquet
+mediatype: application/parquet
+schema:
+  fields:
+  - name: period_type
+    type: string
+    description: Period classification; rolling for this dataset.
+    constraints:
+      unique: false
+      enum:
+      - rolling
+    example: rolling
+  - name: period
+    type: string
+    description: 'Inclusive rolling window: last_30_days or last_90_days.'
+    constraints:
+      unique: false
+      enum:
+      - last_30_days
+      - last_90_days
+    example: last_30_days
+  - name: period_start
+    type: string
+    description: First tabling date included, in ISO YYYY-MM-DD format.
+    constraints:
+      unique: false
+      enum:
+      - '2026-07-29'
+      - '2026-09-27'
+    example: '2026-07-29'
+  - name: period_end
+    type: string
+    description: Last tabling date included, in ISO YYYY-MM-DD format.
+    constraints:
+      unique: false
+      enum:
+      - '2026-10-26'
+    example: '2026-10-26'
+  - name: as_of_date
+    type: string
+    description: Date at which answers and overdue status are assessed, in ISO
+      YYYY-MM-DD format.
+    constraints:
+      unique: false
+      enum:
+      - '2026-10-26'
+    example: '2026-10-26'
+  - name: department_id
+    type: number
+    description: Parliament answering body ID; empty for the constructed
+      all-departments total.
+    constraints:
+      unique: false
+    example: '1.0'
+  - name: department
+    type: string
+    description: Latest department name in the 90-day cohort, or all for the
+      combined total.
+    constraints:
+      unique: false
+    example: Attorney General's Office
+  - name: type
+    type: string
+    description: ordinary or priority; priority means a named day question.
+    constraints:
+      unique: false
+      enum:
+      - ordinary
+      - priority
+    example: ordinary
+  - name: received_count
+    type: integer
+    description: Number of eligible questions tabled within the window.
+    constraints:
+      unique: false
+    example: '1'
+  - name: answered_count
+    type: integer
+    description: Received questions with a substantive answer by the assessment
+      date; excludes holding answers.
+    constraints:
+      unique: false
+    example: '0'
+  - name: answered_on_time
+    type: integer
+    description: Subset of answered_count answered by the named date, or within
+      the ordinary response target of the fifth working day on or after the
+      published date for answer, counting that date as day one if it is a
+      working day (excluding weekends and England and Wales bank holidays).
+    constraints:
+      unique: false
+    example: '0'
+  - name: waiting_within_allowed_period
+    type: integer
+    description: Received questions without a substantive answer and with a
+      deadline on or after the assessment date.
+    constraints:
+      unique: false
+    example: '0'
+  - name: waiting_overdue
+    type: integer
+    description: Received questions without a substantive answer and with a
+      deadline before the assessment date.
+    constraints:
+      unique: false
+    example: '0'
+hash: 4d6ab22edcc000dba07bc78860930912

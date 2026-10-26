@@ -1,0 +1,25 @@
+name: commons_written_questions_performance
+title: Commons Written Questions Performance
+description: Government department performance for questions tabled in the last 30 and 90 days.
+version: 0.1.0
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
+contributors:
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+custom:
+  build: uk_parl_written_questions.performance:create_performance_dataset
+  dataset_order: 2
+  formats:
+    csv: true
+    parquet: true
+  composite:
+    xlsx:
+      render: false
+    json:
+      render: false
+    sqlite:
+      render: false

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}How overdue are written questions? - {{ site_settings.title }}{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('performance.static', filename='table.css') }}">
+{% endblock %}
+
+{% macro count_link(table, status, count, delay=none) -%}
+  {%- if count -%}
+    <a href="{{ site_path(table.detail_path(status, delay)) }}" aria-label="{{ count }} {{ status }} {{ table.title|lower }}{% if delay is not none %}, {{ delay if delay else 'less than 1' }} working {{ 'day' if delay == 1 else 'days' }} overdue{% else %}, all overdue delays{% endif %}">{{ count }}</a>
+  {%- else -%}0{%- endif -%}
+{%- endmacro %}
+
+{% block content %}
+<h1>How overdue are written questions?</h1>
+<p>Questions tabled in the last {{ selection.days }} days, assessed on <strong>{{ dataset.as_of_date }}</strong>. Counts cover all government departments.</p>
+{% if dataset.source_refreshed_at %}
+<p class="performance-freshness">Source cache refreshed: {{ dataset.source_refreshed_at.isoformat() }}.</p>
+{% endif %}
+<p><strong>Answered</strong> shows how overdue questions were when a substantive answer arrived. <strong>Pending</strong> shows how overdue outstanding questions are at the assessment date.</p>
+<p>Delays count working days beyond the response target, excluding weekends and England and Wales bank holidays. Answers on time and pending questions still within their allowed period are excluded. Holding replies remain pending.</p>
+{% include "performance/controls.html" %}
+{% for table in tables %}
+<section id="{{ table.anchor }}" class="performance-section" aria-labelledby="{{ table.anchor }}-heading">
+  <h2 id="{{ table.anchor }}-heading">{{ table.title }} — last {{ selection.days }} days</h2>
+  <p>{% if table.question_type == 'priority' %}The response target is the question’s named answer date.{% else %}The response target is the fifth working day, counting the published date for answer as day one.{% endif %} Recess days count as working days unless they fall on a weekend or bank holiday.</p>
+  <div class="performance-scroll" role="region" aria-labelledby="{{ table.anchor }}-heading" tabindex="0">
+    <table id="{{ table.question_type }}-overdue" class="performance-table overdue-grid">
+      <caption>Overdue {{ table.title|lower }} tabled {{ table.period_start }} to {{ table.period_end }}, inclusive</caption>
+      <thead>
+        <tr>
+          <th scope="col">Working days overdue</th>
+          <th scope="col">Answered</th>
+          <th scope="col">Pending</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in table.rows %}
+        <tr>
+          <th scope="row">{{ row.days_overdue if row.days_overdue else 'Less than 1' }}</th>
+          <td>{{ count_link(table, "answered", row.answered_count, row.days_overdue) }}</td>
+          <td>{{ count_link(table, "pending", row.pending_count, row.days_overdue) }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="3">No overdue questions in this cohort.</td></tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr class="performance-total">
+          <th scope="row">Total overdue</th>
+          <td>{{ count_link(table, "answered", table.answered_count) }}</td>
+          <td>{{ count_link(table, "pending", table.pending_count) }}</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  {% if table.rows and table.rows[0].days_overdue == 0 %}
+  <p>“Less than 1” means the deadline has passed but no working day has elapsed, for example over a weekend.</p>
+  {% endif %}
+</section>
+{% endfor %}
+<p>The period is based on when questions were tabled, not when they became overdue. Older outstanding questions outside that period are not included.</p>
+{% include "performance/methodology.html" %}
+<p><a href="{{ site_path('performance/performance.json') }}" download>Download performance data (JSON)</a></p>
+{% endblock %}

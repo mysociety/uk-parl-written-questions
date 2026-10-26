@@ -1,0 +1,9 @@
+{
+  "name": "uk-parl-written-questions-dashboard-tests",
+  "private": true,
+  "description": "Offline DOM tests for the dashboard's pinned DataTables enhancement",
+  "devDependencies": {
+    "datatables.net": "3.0.4",
+    "jsdom": "22.1.0"
+  }
+}

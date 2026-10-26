@@ -14,3 +14,9 @@ data/packages/commons_written_questions_interests/written_questions_interests.pa
 data/raw/longform_cache
 _site/
 data/packages/_published/
+
+# Generated rolling performance aggregates
+data/packages/commons_written_questions_performance/*.parquet
+data/packages/commons_written_questions_performance/performance_snapshot.json
+
+node_modules/

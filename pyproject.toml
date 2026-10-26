@@ -1,16 +1,12 @@
 [project]
 name = "uk_parl_written_questions"
 version = "0.1.0"
-description = "Dataset view of questions"
+description = "Analysis and data on UK Parliamentary Written Questions"
 authors = []
 requires-python = ">=3.11,<3.15"
 dependencies = [
     "data-common[dataset]",
     "click>=8.1,<8.2",
-    # >=1.5.1 required: 1.5.0 and earlier break under pydantic>=2.12 on
-    # Python 3.14 (PEP 649 deferred annotations - XMLModelMeta.__new__
-    # wiped namespace["__annotations__"] before pydantic ever saw it,
-    # fixed upstream in 1.5.1).
     "mysoc-validator>=1.5.1,<2",
     "pydantic-store>=0.1.0,<0.2",
     "httpx>=0.28.1,<0.29",
@@ -90,9 +86,10 @@ section-order = [
 django = ["django"]
 
 [tool.dataset.site]
-title = "uk-parl-written-questions"
-description = "Dataset view of questions"
-intro = "Dataset view of questions"
+extensions = ["uk_parl_written_questions.dashboard:create_extension"]
+title = "UK Parliament Written Questions"
+description = "Analysis and data on UK Parliamentary Written Questions"
+intro = "Analysis and data on UK Parliamentary Written Questions"
 base_url = "/uk-parl-written-questions"
 canonical_url = "https://pages.mysociety.org/uk-parl-written-questions"
 source_url = "https://github.com/mysociety/uk-parl-written-questions"

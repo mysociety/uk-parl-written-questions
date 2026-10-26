@@ -1,0 +1,31 @@
+.performance-contents { margin: 2rem 0; padding-left: 1.25rem; border-left: 3px solid #4faded; }
+.performance-contents h2 { margin: 0 0 .75rem; font-size: 1.25rem; }
+.performance-contents ol, .performance-contents ul { padding-left: 1.5rem; }
+.performance-contents li { margin: .5rem 0; }
+.performance-contents a[aria-current="page"] { font-weight: 700; }
+.performance-contents-current { color: #485661; font-size: .9rem; }
+.performance-scroll { overflow-x: auto; margin: 1rem 0; }
+.performance-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.performance-table caption { text-align: left; padding: .5rem 0; }
+.performance-table th, .performance-table td { padding: .8rem; border-bottom: 1px solid #d5dde3; text-align: right; vertical-align: top; }
+.performance-table th:first-child { text-align: left; min-width: 15rem; }
+.performance-table thead th { background: #f1f5f8; }
+.performance-total { background: #e8f3fa; font-weight: 700; }
+.performance-freshness { color: #485661; font-size: .9rem; }
+.performance-methodology { margin: 2rem 0; }
+.performance-methodology summary { cursor: pointer; font-weight: 700; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.performance-table .performance-total th { background: #e8f3fa; }
+
+.performance-section { margin: 2.5rem 0; padding-top: 1rem; border-top: 3px solid #4faded; scroll-margin-top: 1rem; }
+.performance-section h2 { margin: 0 0 .75rem; font-size: 1.75rem; }
+
+.performance-table button[data-sort] { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-align: inherit; cursor: pointer; text-decoration: underline; }
+.performance-table button[data-sort]:disabled { cursor: default; text-decoration: none; }
+.performance-table button[data-sort]:focus-visible { outline: 2px solid #163d54; outline-offset: 3px; }
+
+.question-list th:first-child { min-width: 20rem; width: 45%; }
+.question-list td:nth-child(2) { text-align: left; }
+.question-excerpt { font-weight: 400; margin: .5rem 0 0; }
+.question-date { white-space: nowrap; }

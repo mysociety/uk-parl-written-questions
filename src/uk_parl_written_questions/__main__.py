@@ -1,6 +1,7 @@
 import typer
 
 from .fetch import create_dataset, enrich_truncated_questions, get_all_data
+from .holidays import refresh_bank_holidays
 
 app = typer.Typer()
 
@@ -11,6 +12,7 @@ def main():
 
 @app.command()
 def fetch():
+    refresh_bank_holidays()
     get_all_data(force_recent=True)
 
 

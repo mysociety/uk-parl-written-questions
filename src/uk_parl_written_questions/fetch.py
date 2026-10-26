@@ -149,6 +149,17 @@ def get_all_data(force_recent: bool = False):
     for month in Month.range(start, current):
         recent = force_recent and month >= three_months_ago
         data.extend(get_data_for_month(month, force=recent))
+    if force_recent:
+        (data_dir.parent / "commons_refresh.json").write_text(
+            json.dumps(
+                {
+                    "refreshed_at": datetime.datetime.now(
+                        datetime.timezone.utc
+                    ).isoformat()
+                }
+            )
+            + "\n"
+        )
     return data
 
 
