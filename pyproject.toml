@@ -33,6 +33,7 @@ dev = [
 data-common = { path = "src/data_common/", editable = true }
 
 [tool.pytest.ini_options]
+testpaths = ["tests"]
 markers = ["notebook: exercises notebook execution and analysis bundle production"]
 
 [build-system]
