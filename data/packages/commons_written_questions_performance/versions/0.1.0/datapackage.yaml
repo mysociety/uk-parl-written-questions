@@ -25,4 +25,4 @@ custom:
     sqlite:
       render: false
   change_log:
-    0.1.0: Don't need to increment, first version
+    0.1.0: 'Minor change in data for resource(s): performance'

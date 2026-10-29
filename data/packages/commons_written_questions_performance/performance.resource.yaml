@@ -34,17 +34,17 @@ schema:
     constraints:
       unique: false
       enum:
-      - '2026-07-29'
-      - '2026-09-27'
-    example: '2026-07-29'
+      - '2026-08-01'
+      - '2026-09-30'
+    example: '2026-08-01'
   - name: period_end
     type: string
     description: Last tabling date included, in ISO YYYY-MM-DD format.
     constraints:
       unique: false
       enum:
-      - '2026-10-26'
-    example: '2026-10-26'
+      - '2026-10-29'
+    example: '2026-10-29'
   - name: as_of_date
     type: string
     description: Date at which answers and overdue status are assessed, in ISO
@@ -52,8 +52,8 @@ schema:
     constraints:
       unique: false
       enum:
-      - '2026-10-26'
-    example: '2026-10-26'
+      - '2026-10-29'
+    example: '2026-10-29'
   - name: department_id
     type: number
     description: Parliament answering body ID; empty for the constructed
@@ -113,4 +113,4 @@ schema:
     constraints:
       unique: false
     example: '0'
-hash: 7a4f255c9ea430ac049ef749a844c7ff
+hash: 8552cb0740fe9fe465d786ad1bc35298
