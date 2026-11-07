@@ -1,208 +1,208 @@
 {
-  "as_of_date": "2026-11-06",
-  "source_refreshed_at": "2026-11-06T00:43:05.968354Z",
+  "as_of_date": "2026-11-07",
+  "source_refreshed_at": "2026-11-07T00:34:19.201240Z",
   "rows": [
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": null,
       "department": "all",
       "type": "ordinary",
       "received_count": 8781,
-      "answered_count": 6719,
-      "answered_on_time": 5517,
-      "waiting_within_allowed_period": 1455,
-      "waiting_overdue": 607
+      "answered_count": 6999,
+      "answered_on_time": 5773,
+      "waiting_within_allowed_period": 1071,
+      "waiting_overdue": 711
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 88,
       "department": "Attorney General's Office",
       "type": "ordinary",
-      "received_count": 42,
+      "received_count": 41,
       "answered_count": 38,
       "answered_on_time": 27,
-      "waiting_within_allowed_period": 4,
+      "waiting_within_allowed_period": 3,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 53,
       "department": "Cabinet Office",
       "type": "ordinary",
       "received_count": 550,
-      "answered_count": 267,
+      "answered_count": 272,
       "answered_on_time": 98,
-      "waiting_within_allowed_period": 69,
-      "waiting_overdue": 214
+      "waiting_within_allowed_period": 35,
+      "waiting_overdue": 243
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 220,
       "department": "Department for Business, Innovation, Science and Trade",
       "type": "ordinary",
-      "received_count": 595,
-      "answered_count": 515,
-      "answered_on_time": 439,
-      "waiting_within_allowed_period": 74,
-      "waiting_overdue": 6
+      "received_count": 590,
+      "answered_count": 534,
+      "answered_on_time": 457,
+      "waiting_within_allowed_period": 49,
+      "waiting_overdue": 7
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 10,
       "department": "Department for Digital, Culture, Media and Sport",
       "type": "ordinary",
-      "received_count": 342,
-      "answered_count": 285,
-      "answered_on_time": 210,
-      "waiting_within_allowed_period": 38,
-      "waiting_overdue": 19
+      "received_count": 346,
+      "answered_count": 293,
+      "answered_on_time": 217,
+      "waiting_within_allowed_period": 29,
+      "waiting_overdue": 24
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 60,
       "department": "Department for Education",
       "type": "ordinary",
-      "received_count": 552,
-      "answered_count": 421,
-      "answered_on_time": 392,
-      "waiting_within_allowed_period": 101,
-      "waiting_overdue": 30
+      "received_count": 549,
+      "answered_count": 451,
+      "answered_on_time": 422,
+      "waiting_within_allowed_period": 56,
+      "waiting_overdue": 42
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 215,
       "department": "Department for Energy Security and Net Zero",
       "type": "ordinary",
-      "received_count": 321,
-      "answered_count": 246,
-      "answered_on_time": 246,
-      "waiting_within_allowed_period": 75,
+      "received_count": 323,
+      "answered_count": 280,
+      "answered_on_time": 280,
+      "waiting_within_allowed_period": 43,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 13,
       "department": "Department for Environment, Food and Rural Affairs",
       "type": "ordinary",
-      "received_count": 651,
-      "answered_count": 560,
-      "answered_on_time": 514,
-      "waiting_within_allowed_period": 80,
-      "waiting_overdue": 11
+      "received_count": 649,
+      "answered_count": 571,
+      "answered_on_time": 524,
+      "waiting_within_allowed_period": 65,
+      "waiting_overdue": 13
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 27,
       "department": "Department for Transport",
       "type": "ordinary",
-      "received_count": 558,
-      "answered_count": 411,
-      "answered_on_time": 354,
-      "waiting_within_allowed_period": 125,
-      "waiting_overdue": 22
+      "received_count": 560,
+      "answered_count": 435,
+      "answered_on_time": 378,
+      "waiting_within_allowed_period": 101,
+      "waiting_overdue": 24
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 29,
       "department": "Department for Work and Pensions",
       "type": "ordinary",
-      "received_count": 463,
-      "answered_count": 381,
-      "answered_on_time": 289,
-      "waiting_within_allowed_period": 77,
-      "waiting_overdue": 5
+      "received_count": 465,
+      "answered_count": 407,
+      "answered_on_time": 312,
+      "waiting_within_allowed_period": 43,
+      "waiting_overdue": 15
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 17,
       "department": "Department of Health and Social Care",
       "type": "ordinary",
-      "received_count": 1269,
-      "answered_count": 1015,
-      "answered_on_time": 775,
-      "waiting_within_allowed_period": 184,
-      "waiting_overdue": 70
+      "received_count": 1270,
+      "answered_count": 1023,
+      "answered_on_time": 779,
+      "waiting_within_allowed_period": 161,
+      "waiting_overdue": 86
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 208,
       "department": "Foreign, Commonwealth and Development Office",
       "type": "ordinary",
       "received_count": 414,
-      "answered_count": 344,
-      "answered_on_time": 324,
-      "waiting_within_allowed_period": 67,
+      "answered_count": 345,
+      "answered_on_time": 325,
+      "waiting_within_allowed_period": 66,
       "waiting_overdue": 3
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 1,
       "department": "Home Office",
       "type": "ordinary",
-      "received_count": 588,
-      "answered_count": 467,
-      "answered_on_time": 380,
-      "waiting_within_allowed_period": 111,
-      "waiting_overdue": 10
+      "received_count": 587,
+      "answered_count": 478,
+      "answered_on_time": 391,
+      "waiting_within_allowed_period": 97,
+      "waiting_overdue": 12
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 34,
       "department": "Leader of the House",
       "type": "ordinary",
@@ -215,99 +215,99 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 11,
       "department": "Ministry of Defence",
       "type": "ordinary",
-      "received_count": 706,
-      "answered_count": 533,
-      "answered_on_time": 481,
-      "waiting_within_allowed_period": 156,
-      "waiting_overdue": 17
+      "received_count": 705,
+      "answered_count": 565,
+      "answered_on_time": 510,
+      "waiting_within_allowed_period": 122,
+      "waiting_overdue": 18
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 7,
       "department": "Ministry of Housing, Communities and Local Government",
       "type": "ordinary",
-      "received_count": 739,
-      "answered_count": 459,
-      "answered_on_time": 268,
-      "waiting_within_allowed_period": 111,
-      "waiting_overdue": 169
+      "received_count": 743,
+      "answered_count": 479,
+      "answered_on_time": 287,
+      "waiting_within_allowed_period": 78,
+      "waiting_overdue": 186
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 54,
       "department": "Ministry of Justice",
       "type": "ordinary",
       "received_count": 335,
-      "answered_count": 232,
-      "answered_on_time": 185,
-      "waiting_within_allowed_period": 97,
-      "waiting_overdue": 6
+      "answered_count": 272,
+      "answered_on_time": 220,
+      "waiting_within_allowed_period": 60,
+      "waiting_overdue": 3
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 21,
       "department": "Northern Ireland Office",
       "type": "ordinary",
-      "received_count": 35,
+      "received_count": 34,
       "answered_count": 34,
       "answered_on_time": 32,
-      "waiting_within_allowed_period": 1,
+      "waiting_within_allowed_period": 0,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 2,
       "department": "Scotland Office",
       "type": "ordinary",
       "received_count": 7,
       "answered_count": 5,
       "answered_on_time": 1,
-      "waiting_within_allowed_period": 1,
-      "waiting_overdue": 1
+      "waiting_within_allowed_period": 0,
+      "waiting_overdue": 2
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 14,
       "department": "Treasury",
       "type": "ordinary",
-      "received_count": 562,
-      "answered_count": 477,
-      "answered_on_time": 477,
-      "waiting_within_allowed_period": 75,
-      "waiting_overdue": 10
+      "received_count": 561,
+      "answered_count": 488,
+      "answered_on_time": 488,
+      "waiting_within_allowed_period": 56,
+      "waiting_overdue": 17
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 28,
       "department": "Wales Office",
       "type": "ordinary",
@@ -320,39 +320,39 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 31,
       "department": "Women and Equalities",
       "type": "ordinary",
       "received_count": 33,
       "answered_count": 15,
       "answered_on_time": 11,
-      "waiting_within_allowed_period": 4,
-      "waiting_overdue": 14
+      "waiting_within_allowed_period": 2,
+      "waiting_overdue": 16
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": null,
       "department": "all",
       "type": "priority",
       "received_count": 1942,
-      "answered_count": 1453,
+      "answered_count": 1464,
       "answered_on_time": 1077,
       "waiting_within_allowed_period": 330,
-      "waiting_overdue": 159
+      "waiting_overdue": 148
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 88,
       "department": "Attorney General's Office",
       "type": "priority",
@@ -365,54 +365,54 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 53,
       "department": "Cabinet Office",
       "type": "priority",
-      "received_count": 135,
-      "answered_count": 45,
+      "received_count": 131,
+      "answered_count": 51,
       "answered_on_time": 21,
-      "waiting_within_allowed_period": 18,
-      "waiting_overdue": 72
+      "waiting_within_allowed_period": 16,
+      "waiting_overdue": 64
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 220,
       "department": "Department for Business, Innovation, Science and Trade",
       "type": "priority",
-      "received_count": 83,
+      "received_count": 82,
       "answered_count": 75,
       "answered_on_time": 65,
-      "waiting_within_allowed_period": 8,
+      "waiting_within_allowed_period": 7,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 10,
       "department": "Department for Digital, Culture, Media and Sport",
       "type": "priority",
-      "received_count": 66,
+      "received_count": 70,
       "answered_count": 49,
       "answered_on_time": 34,
-      "waiting_within_allowed_period": 12,
-      "waiting_overdue": 5
+      "waiting_within_allowed_period": 14,
+      "waiting_overdue": 7
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 60,
       "department": "Department for Education",
       "type": "priority",
@@ -425,9 +425,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 215,
       "department": "Department for Energy Security and Net Zero",
       "type": "priority",
@@ -440,9 +440,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 13,
       "department": "Department for Environment, Food and Rural Affairs",
       "type": "priority",
@@ -455,24 +455,24 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 27,
       "department": "Department for Transport",
       "type": "priority",
-      "received_count": 193,
-      "answered_count": 145,
+      "received_count": 192,
+      "answered_count": 147,
       "answered_on_time": 103,
-      "waiting_within_allowed_period": 35,
-      "waiting_overdue": 13
+      "waiting_within_allowed_period": 34,
+      "waiting_overdue": 11
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 29,
       "department": "Department for Work and Pensions",
       "type": "priority",
@@ -485,9 +485,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 17,
       "department": "Department of Health and Social Care",
       "type": "priority",
@@ -500,39 +500,39 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 208,
       "department": "Foreign, Commonwealth and Development Office",
       "type": "priority",
-      "received_count": 93,
+      "received_count": 92,
       "answered_count": 69,
       "answered_on_time": 65,
-      "waiting_within_allowed_period": 23,
+      "waiting_within_allowed_period": 22,
       "waiting_overdue": 1
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 1,
       "department": "Home Office",
       "type": "priority",
-      "received_count": 152,
+      "received_count": 154,
       "answered_count": 110,
       "answered_on_time": 98,
-      "waiting_within_allowed_period": 40,
+      "waiting_within_allowed_period": 42,
       "waiting_overdue": 2
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 34,
       "department": "Leader of the House",
       "type": "priority",
@@ -545,9 +545,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 11,
       "department": "Ministry of Defence",
       "type": "priority",
@@ -560,9 +560,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 7,
       "department": "Ministry of Housing, Communities and Local Government",
       "type": "priority",
@@ -575,39 +575,39 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 54,
       "department": "Ministry of Justice",
       "type": "priority",
       "received_count": 99,
-      "answered_count": 82,
+      "answered_count": 84,
       "answered_on_time": 74,
       "waiting_within_allowed_period": 14,
-      "waiting_overdue": 3
+      "waiting_overdue": 1
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 21,
       "department": "Northern Ireland Office",
       "type": "priority",
-      "received_count": 12,
+      "received_count": 13,
       "answered_count": 12,
       "answered_on_time": 12,
-      "waiting_within_allowed_period": 0,
+      "waiting_within_allowed_period": 1,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 2,
       "department": "Scotland Office",
       "type": "priority",
@@ -620,24 +620,24 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 14,
       "department": "Treasury",
       "type": "priority",
       "received_count": 192,
-      "answered_count": 155,
+      "answered_count": 156,
       "answered_on_time": 149,
       "waiting_within_allowed_period": 36,
-      "waiting_overdue": 1
+      "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 28,
       "department": "Wales Office",
       "type": "priority",
@@ -650,9 +650,9 @@
     {
       "period_type": "rolling",
       "period": "last_30_days",
-      "period_start": "2026-10-08",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-10-09",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 31,
       "department": "Women and Equalities",
       "type": "priority",
@@ -665,204 +665,204 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": null,
       "department": "all",
       "type": "ordinary",
       "received_count": 18208,
-      "answered_count": 15698,
-      "answered_on_time": 11835,
-      "waiting_within_allowed_period": 1455,
-      "waiting_overdue": 1055
+      "answered_count": 16009,
+      "answered_on_time": 12091,
+      "waiting_within_allowed_period": 1071,
+      "waiting_overdue": 1128
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 88,
       "department": "Attorney General's Office",
       "type": "ordinary",
-      "received_count": 80,
+      "received_count": 79,
       "answered_count": 75,
       "answered_on_time": 43,
-      "waiting_within_allowed_period": 4,
+      "waiting_within_allowed_period": 3,
       "waiting_overdue": 1
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 53,
       "department": "Cabinet Office",
       "type": "ordinary",
       "received_count": 1275,
-      "answered_count": 948,
+      "answered_count": 956,
       "answered_on_time": 342,
-      "waiting_within_allowed_period": 69,
-      "waiting_overdue": 258
+      "waiting_within_allowed_period": 35,
+      "waiting_overdue": 284
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 220,
       "department": "Department for Business, Innovation, Science and Trade",
       "type": "ordinary",
-      "received_count": 1092,
-      "answered_count": 1007,
-      "answered_on_time": 906,
-      "waiting_within_allowed_period": 74,
-      "waiting_overdue": 11
-    },
-    {
-      "period_type": "rolling",
-      "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 10,
-      "department": "Department for Digital, Culture, Media and Sport",
-      "type": "ordinary",
-      "received_count": 652,
-      "answered_count": 594,
-      "answered_on_time": 410,
-      "waiting_within_allowed_period": 38,
-      "waiting_overdue": 20
-    },
-    {
-      "period_type": "rolling",
-      "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 60,
-      "department": "Department for Education",
-      "type": "ordinary",
-      "received_count": 1065,
-      "answered_count": 924,
-      "answered_on_time": 803,
-      "waiting_within_allowed_period": 101,
-      "waiting_overdue": 40
-    },
-    {
-      "period_type": "rolling",
-      "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 215,
-      "department": "Department for Energy Security and Net Zero",
-      "type": "ordinary",
-      "received_count": 573,
-      "answered_count": 498,
-      "answered_on_time": 498,
-      "waiting_within_allowed_period": 75,
-      "waiting_overdue": 0
-    },
-    {
-      "period_type": "rolling",
-      "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 13,
-      "department": "Department for Environment, Food and Rural Affairs",
-      "type": "ordinary",
-      "received_count": 1294,
-      "answered_count": 1202,
-      "answered_on_time": 993,
-      "waiting_within_allowed_period": 80,
+      "received_count": 1087,
+      "answered_count": 1026,
+      "answered_on_time": 924,
+      "waiting_within_allowed_period": 49,
       "waiting_overdue": 12
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 27,
-      "department": "Department for Transport",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 10,
+      "department": "Department for Digital, Culture, Media and Sport",
       "type": "ordinary",
-      "received_count": 1078,
-      "answered_count": 929,
-      "answered_on_time": 834,
-      "waiting_within_allowed_period": 125,
+      "received_count": 656,
+      "answered_count": 603,
+      "answered_on_time": 417,
+      "waiting_within_allowed_period": 29,
       "waiting_overdue": 24
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 29,
-      "department": "Department for Work and Pensions",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 60,
+      "department": "Department for Education",
       "type": "ordinary",
-      "received_count": 779,
-      "answered_count": 697,
-      "answered_on_time": 511,
-      "waiting_within_allowed_period": 77,
-      "waiting_overdue": 5
+      "received_count": 1062,
+      "answered_count": 954,
+      "answered_on_time": 833,
+      "waiting_within_allowed_period": 56,
+      "waiting_overdue": 52
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 17,
-      "department": "Department of Health and Social Care",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 215,
+      "department": "Department for Energy Security and Net Zero",
       "type": "ordinary",
-      "received_count": 2343,
-      "answered_count": 2087,
-      "answered_on_time": 1256,
-      "waiting_within_allowed_period": 184,
-      "waiting_overdue": 72
+      "received_count": 575,
+      "answered_count": 532,
+      "answered_on_time": 532,
+      "waiting_within_allowed_period": 43,
+      "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 208,
-      "department": "Foreign, Commonwealth and Development Office",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 13,
+      "department": "Department for Environment, Food and Rural Affairs",
       "type": "ordinary",
-      "received_count": 861,
-      "answered_count": 791,
-      "answered_on_time": 640,
-      "waiting_within_allowed_period": 67,
-      "waiting_overdue": 3
-    },
-    {
-      "period_type": "rolling",
-      "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
-      "department_id": 1,
-      "department": "Home Office",
-      "type": "ordinary",
-      "received_count": 1242,
-      "answered_count": 1117,
-      "answered_on_time": 839,
-      "waiting_within_allowed_period": 111,
+      "received_count": 1292,
+      "answered_count": 1213,
+      "answered_on_time": 1003,
+      "waiting_within_allowed_period": 65,
       "waiting_overdue": 14
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 27,
+      "department": "Department for Transport",
+      "type": "ordinary",
+      "received_count": 1080,
+      "answered_count": 953,
+      "answered_on_time": 858,
+      "waiting_within_allowed_period": 101,
+      "waiting_overdue": 26
+    },
+    {
+      "period_type": "rolling",
+      "period": "last_90_days",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 29,
+      "department": "Department for Work and Pensions",
+      "type": "ordinary",
+      "received_count": 781,
+      "answered_count": 723,
+      "answered_on_time": 534,
+      "waiting_within_allowed_period": 43,
+      "waiting_overdue": 15
+    },
+    {
+      "period_type": "rolling",
+      "period": "last_90_days",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 17,
+      "department": "Department of Health and Social Care",
+      "type": "ordinary",
+      "received_count": 2344,
+      "answered_count": 2095,
+      "answered_on_time": 1260,
+      "waiting_within_allowed_period": 161,
+      "waiting_overdue": 88
+    },
+    {
+      "period_type": "rolling",
+      "period": "last_90_days",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 208,
+      "department": "Foreign, Commonwealth and Development Office",
+      "type": "ordinary",
+      "received_count": 861,
+      "answered_count": 792,
+      "answered_on_time": 641,
+      "waiting_within_allowed_period": 66,
+      "waiting_overdue": 3
+    },
+    {
+      "period_type": "rolling",
+      "period": "last_90_days",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
+      "department_id": 1,
+      "department": "Home Office",
+      "type": "ordinary",
+      "received_count": 1241,
+      "answered_count": 1128,
+      "answered_on_time": 850,
+      "waiting_within_allowed_period": 97,
+      "waiting_overdue": 16
+    },
+    {
+      "period_type": "rolling",
+      "period": "last_90_days",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 34,
       "department": "Leader of the House",
       "type": "ordinary",
@@ -875,99 +875,99 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 11,
       "department": "Ministry of Defence",
       "type": "ordinary",
-      "received_count": 1780,
-      "answered_count": 1602,
-      "answered_on_time": 1304,
-      "waiting_within_allowed_period": 156,
-      "waiting_overdue": 22
+      "received_count": 1779,
+      "answered_count": 1634,
+      "answered_on_time": 1333,
+      "waiting_within_allowed_period": 122,
+      "waiting_overdue": 23
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 7,
       "department": "Ministry of Housing, Communities and Local Government",
       "type": "ordinary",
-      "received_count": 1886,
-      "answered_count": 1269,
-      "answered_on_time": 740,
-      "waiting_within_allowed_period": 111,
-      "waiting_overdue": 506
+      "received_count": 1890,
+      "answered_count": 1316,
+      "answered_on_time": 759,
+      "waiting_within_allowed_period": 78,
+      "waiting_overdue": 496
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 54,
       "department": "Ministry of Justice",
       "type": "ordinary",
       "received_count": 709,
-      "answered_count": 606,
-      "answered_on_time": 532,
-      "waiting_within_allowed_period": 97,
-      "waiting_overdue": 6
+      "answered_count": 646,
+      "answered_on_time": 567,
+      "waiting_within_allowed_period": 60,
+      "waiting_overdue": 3
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 21,
       "department": "Northern Ireland Office",
       "type": "ordinary",
-      "received_count": 83,
+      "received_count": 82,
       "answered_count": 82,
       "answered_on_time": 60,
-      "waiting_within_allowed_period": 1,
+      "waiting_within_allowed_period": 0,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 2,
       "department": "Scotland Office",
       "type": "ordinary",
       "received_count": 36,
       "answered_count": 34,
       "answered_on_time": 23,
-      "waiting_within_allowed_period": 1,
-      "waiting_overdue": 1
+      "waiting_within_allowed_period": 0,
+      "waiting_overdue": 2
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 14,
       "department": "Treasury",
       "type": "ordinary",
-      "received_count": 1214,
-      "answered_count": 1129,
-      "answered_on_time": 1036,
-      "waiting_within_allowed_period": 75,
-      "waiting_overdue": 10
+      "received_count": 1213,
+      "answered_count": 1140,
+      "answered_on_time": 1047,
+      "waiting_within_allowed_period": 56,
+      "waiting_overdue": 17
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 28,
       "department": "Wales Office",
       "type": "ordinary",
@@ -980,39 +980,39 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 31,
       "department": "Women and Equalities",
       "type": "ordinary",
       "received_count": 119,
       "answered_count": 65,
       "answered_on_time": 23,
-      "waiting_within_allowed_period": 4,
-      "waiting_overdue": 50
+      "waiting_within_allowed_period": 2,
+      "waiting_overdue": 52
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": null,
       "department": "all",
       "type": "priority",
       "received_count": 3066,
-      "answered_count": 2555,
+      "answered_count": 2567,
       "answered_on_time": 1855,
       "waiting_within_allowed_period": 330,
-      "waiting_overdue": 181
+      "waiting_overdue": 169
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 88,
       "department": "Attorney General's Office",
       "type": "priority",
@@ -1025,54 +1025,54 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 53,
       "department": "Cabinet Office",
       "type": "priority",
-      "received_count": 200,
-      "answered_count": 106,
+      "received_count": 196,
+      "answered_count": 112,
       "answered_on_time": 37,
-      "waiting_within_allowed_period": 18,
-      "waiting_overdue": 76
+      "waiting_within_allowed_period": 16,
+      "waiting_overdue": 68
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 220,
       "department": "Department for Business, Innovation, Science and Trade",
       "type": "priority",
-      "received_count": 128,
+      "received_count": 127,
       "answered_count": 120,
       "answered_on_time": 105,
-      "waiting_within_allowed_period": 8,
+      "waiting_within_allowed_period": 7,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 10,
       "department": "Department for Digital, Culture, Media and Sport",
       "type": "priority",
-      "received_count": 99,
+      "received_count": 103,
       "answered_count": 82,
       "answered_on_time": 60,
-      "waiting_within_allowed_period": 12,
-      "waiting_overdue": 5
+      "waiting_within_allowed_period": 14,
+      "waiting_overdue": 7
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 60,
       "department": "Department for Education",
       "type": "priority",
@@ -1085,9 +1085,9 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 215,
       "department": "Department for Energy Security and Net Zero",
       "type": "priority",
@@ -1100,9 +1100,9 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 13,
       "department": "Department for Environment, Food and Rural Affairs",
       "type": "priority",
@@ -1115,24 +1115,24 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 27,
       "department": "Department for Transport",
       "type": "priority",
-      "received_count": 310,
-      "answered_count": 261,
+      "received_count": 309,
+      "answered_count": 263,
       "answered_on_time": 198,
-      "waiting_within_allowed_period": 35,
-      "waiting_overdue": 14
+      "waiting_within_allowed_period": 34,
+      "waiting_overdue": 12
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 29,
       "department": "Department for Work and Pensions",
       "type": "priority",
@@ -1145,9 +1145,9 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 17,
       "department": "Department of Health and Social Care",
       "type": "priority",
@@ -1160,39 +1160,39 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 208,
       "department": "Foreign, Commonwealth and Development Office",
       "type": "priority",
-      "received_count": 171,
+      "received_count": 170,
       "answered_count": 147,
       "answered_on_time": 118,
-      "waiting_within_allowed_period": 23,
+      "waiting_within_allowed_period": 22,
       "waiting_overdue": 1
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 1,
       "department": "Home Office",
       "type": "priority",
-      "received_count": 232,
+      "received_count": 234,
       "answered_count": 190,
       "answered_on_time": 169,
-      "waiting_within_allowed_period": 40,
+      "waiting_within_allowed_period": 42,
       "waiting_overdue": 2
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 34,
       "department": "Leader of the House",
       "type": "priority",
@@ -1205,9 +1205,9 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 11,
       "department": "Ministry of Defence",
       "type": "priority",
@@ -1220,54 +1220,54 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 7,
       "department": "Ministry of Housing, Communities and Local Government",
       "type": "priority",
       "received_count": 218,
-      "answered_count": 153,
+      "answered_count": 154,
       "answered_on_time": 81,
       "waiting_within_allowed_period": 15,
-      "waiting_overdue": 50
+      "waiting_overdue": 49
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 54,
       "department": "Ministry of Justice",
       "type": "priority",
       "received_count": 170,
-      "answered_count": 153,
+      "answered_count": 155,
       "answered_on_time": 138,
       "waiting_within_allowed_period": 14,
-      "waiting_overdue": 3
+      "waiting_overdue": 1
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 21,
       "department": "Northern Ireland Office",
       "type": "priority",
-      "received_count": 17,
+      "received_count": 18,
       "answered_count": 17,
       "answered_on_time": 17,
-      "waiting_within_allowed_period": 0,
+      "waiting_within_allowed_period": 1,
       "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 2,
       "department": "Scotland Office",
       "type": "priority",
@@ -1280,24 +1280,24 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 14,
       "department": "Treasury",
       "type": "priority",
       "received_count": 279,
-      "answered_count": 242,
+      "answered_count": 243,
       "answered_on_time": 233,
       "waiting_within_allowed_period": 36,
-      "waiting_overdue": 1
+      "waiting_overdue": 0
     },
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 28,
       "department": "Wales Office",
       "type": "priority",
@@ -1310,9 +1310,9 @@
     {
       "period_type": "rolling",
       "period": "last_90_days",
-      "period_start": "2026-08-09",
-      "period_end": "2026-11-06",
-      "as_of_date": "2026-11-06",
+      "period_start": "2026-08-10",
+      "period_end": "2026-11-07",
+      "as_of_date": "2026-11-07",
       "department_id": 31,
       "department": "Women and Equalities",
       "type": "priority",
@@ -1327,6 +1327,13 @@
     {
       "period": "last_30_days",
       "type": "ordinary",
+      "days_overdue": 0,
+      "answered_count": 0,
+      "pending_count": 128
+    },
+    {
+      "period": "last_30_days",
+      "type": "ordinary",
       "days_overdue": 1,
       "answered_count": 386,
       "pending_count": 0
@@ -1335,29 +1342,29 @@
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 2,
-      "answered_count": 232,
-      "pending_count": 63
+      "answered_count": 234,
+      "pending_count": 61
     },
     {
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 3,
-      "answered_count": 90,
-      "pending_count": 52
+      "answered_count": 96,
+      "pending_count": 46
     },
     {
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 4,
-      "answered_count": 83,
-      "pending_count": 4
+      "answered_count": 84,
+      "pending_count": 3
     },
     {
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 5,
-      "answered_count": 114,
-      "pending_count": 96
+      "answered_count": 118,
+      "pending_count": 92
     },
     {
       "period": "last_30_days",
@@ -1377,8 +1384,8 @@
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 8,
-      "answered_count": 38,
-      "pending_count": 23
+      "answered_count": 40,
+      "pending_count": 21
     },
     {
       "period": "last_30_days",
@@ -1398,8 +1405,8 @@
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 11,
-      "answered_count": 25,
-      "pending_count": 21
+      "answered_count": 30,
+      "pending_count": 16
     },
     {
       "period": "last_30_days",
@@ -1412,15 +1419,15 @@
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 13,
-      "answered_count": 7,
-      "pending_count": 33
+      "answered_count": 8,
+      "pending_count": 32
     },
     {
       "period": "last_30_days",
       "type": "ordinary",
       "days_overdue": 14,
-      "answered_count": 0,
-      "pending_count": 233
+      "answered_count": 3,
+      "pending_count": 230
     },
     {
       "period": "last_30_days",
@@ -1433,22 +1440,22 @@
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 2,
-      "answered_count": 81,
-      "pending_count": 6
+      "answered_count": 82,
+      "pending_count": 5
     },
     {
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 3,
-      "answered_count": 52,
-      "pending_count": 24
+      "answered_count": 56,
+      "pending_count": 20
     },
     {
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 4,
-      "answered_count": 32,
-      "pending_count": 31
+      "answered_count": 34,
+      "pending_count": 29
     },
     {
       "period": "last_30_days",
@@ -1461,8 +1468,8 @@
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 6,
-      "answered_count": 19,
-      "pending_count": 15
+      "answered_count": 20,
+      "pending_count": 14
     },
     {
       "period": "last_30_days",
@@ -1475,8 +1482,8 @@
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 8,
-      "answered_count": 7,
-      "pending_count": 10
+      "answered_count": 8,
+      "pending_count": 9
     },
     {
       "period": "last_30_days",
@@ -1517,8 +1524,8 @@
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 14,
-      "answered_count": 2,
-      "pending_count": 5
+      "answered_count": 3,
+      "pending_count": 4
     },
     {
       "period": "last_30_days",
@@ -1538,8 +1545,15 @@
       "period": "last_30_days",
       "type": "priority",
       "days_overdue": 17,
+      "answered_count": 1,
+      "pending_count": 9
+    },
+    {
+      "period": "last_90_days",
+      "type": "ordinary",
+      "days_overdue": 0,
       "answered_count": 0,
-      "pending_count": 10
+      "pending_count": 128
     },
     {
       "period": "last_90_days",
@@ -1552,29 +1566,29 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 2,
-      "answered_count": 591,
-      "pending_count": 63
+      "answered_count": 593,
+      "pending_count": 61
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 3,
-      "answered_count": 290,
-      "pending_count": 52
+      "answered_count": 296,
+      "pending_count": 46
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 4,
-      "answered_count": 385,
-      "pending_count": 4
+      "answered_count": 386,
+      "pending_count": 3
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 5,
-      "answered_count": 293,
-      "pending_count": 96
+      "answered_count": 297,
+      "pending_count": 92
     },
     {
       "period": "last_90_days",
@@ -1594,8 +1608,8 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 8,
-      "answered_count": 122,
-      "pending_count": 23
+      "answered_count": 124,
+      "pending_count": 21
     },
     {
       "period": "last_90_days",
@@ -1615,8 +1629,8 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 11,
-      "answered_count": 85,
-      "pending_count": 21
+      "answered_count": 90,
+      "pending_count": 16
     },
     {
       "period": "last_90_days",
@@ -1629,22 +1643,22 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 13,
-      "answered_count": 70,
-      "pending_count": 33
+      "answered_count": 71,
+      "pending_count": 32
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 14,
-      "answered_count": 29,
-      "pending_count": 233
+      "answered_count": 32,
+      "pending_count": 230
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 15,
-      "answered_count": 35,
-      "pending_count": 18
+      "answered_count": 36,
+      "pending_count": 17
     },
     {
       "period": "last_90_days",
@@ -1776,15 +1790,15 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 34,
-      "answered_count": 11,
-      "pending_count": 27
+      "answered_count": 12,
+      "pending_count": 26
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 35,
-      "answered_count": 5,
-      "pending_count": 26
+      "answered_count": 7,
+      "pending_count": 24
     },
     {
       "period": "last_90_days",
@@ -1797,15 +1811,15 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 37,
-      "answered_count": 16,
-      "pending_count": 17
+      "answered_count": 17,
+      "pending_count": 16
     },
     {
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 38,
-      "answered_count": 12,
-      "pending_count": 15
+      "answered_count": 16,
+      "pending_count": 11
     },
     {
       "period": "last_90_days",
@@ -1818,8 +1832,8 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 40,
-      "answered_count": 20,
-      "pending_count": 14
+      "answered_count": 24,
+      "pending_count": 10
     },
     {
       "period": "last_90_days",
@@ -1839,8 +1853,8 @@
       "period": "last_90_days",
       "type": "ordinary",
       "days_overdue": 43,
-      "answered_count": 0,
-      "pending_count": 275
+      "answered_count": 18,
+      "pending_count": 257
     },
     {
       "period": "last_90_days",
@@ -1853,22 +1867,22 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 2,
-      "answered_count": 153,
-      "pending_count": 6
+      "answered_count": 154,
+      "pending_count": 5
     },
     {
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 3,
-      "answered_count": 84,
-      "pending_count": 24
+      "answered_count": 88,
+      "pending_count": 20
     },
     {
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 4,
-      "answered_count": 51,
-      "pending_count": 31
+      "answered_count": 53,
+      "pending_count": 29
     },
     {
       "period": "last_90_days",
@@ -1881,8 +1895,8 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 6,
-      "answered_count": 36,
-      "pending_count": 15
+      "answered_count": 37,
+      "pending_count": 14
     },
     {
       "period": "last_90_days",
@@ -1895,8 +1909,8 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 8,
-      "answered_count": 15,
-      "pending_count": 10
+      "answered_count": 16,
+      "pending_count": 9
     },
     {
       "period": "last_90_days",
@@ -1937,8 +1951,8 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 14,
-      "answered_count": 2,
-      "pending_count": 5
+      "answered_count": 3,
+      "pending_count": 4
     },
     {
       "period": "last_90_days",
@@ -1958,8 +1972,8 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 17,
-      "answered_count": 0,
-      "pending_count": 10
+      "answered_count": 1,
+      "pending_count": 9
     },
     {
       "period": "last_90_days",
@@ -2091,8 +2105,8 @@
       "period": "last_90_days",
       "type": "priority",
       "days_overdue": 42,
-      "answered_count": 0,
-      "pending_count": 1
+      "answered_count": 1,
+      "pending_count": 0
     },
     {
       "period": "last_90_days",
@@ -2811,7 +2825,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -3229,7 +3243,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -4912,7 +4926,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -9092,7 +9106,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -9103,7 +9117,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -10731,7 +10745,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -13492,7 +13506,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -13844,7 +13858,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19135,7 +19149,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19531,7 +19545,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19542,7 +19556,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19564,7 +19578,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19575,7 +19589,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19586,7 +19600,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -19597,7 +19611,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -24184,7 +24198,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -24195,7 +24209,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -24206,7 +24220,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-08-28",
       "target": "2026-09-08",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 43
     },
     {
@@ -27836,7 +27850,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-09-03",
       "target": "2026-09-11",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 40
     },
     {
@@ -28177,7 +28191,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-03",
       "target": "2026-09-11",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 40
     },
     {
@@ -28430,7 +28444,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-03",
       "target": "2026-09-11",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 40
     },
     {
@@ -28441,7 +28455,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-03",
       "target": "2026-09-11",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 40
     },
     {
@@ -29046,7 +29060,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-09-07",
       "target": "2026-09-15",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 38
     },
     {
@@ -29519,7 +29533,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-07",
       "target": "2026-09-15",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 38
     },
     {
@@ -29695,7 +29709,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-07",
       "target": "2026-09-15",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 38
     },
     {
@@ -30168,7 +30182,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-07",
       "target": "2026-09-15",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 38
     },
     {
@@ -30685,7 +30699,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-08",
       "target": "2026-09-16",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 37
     },
     {
@@ -33512,7 +33526,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-10",
       "target": "2026-09-18",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 35
     },
     {
@@ -33919,7 +33933,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-09-10",
       "target": "2026-09-18",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 35
     },
     {
@@ -34381,7 +34395,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-11",
       "target": "2026-09-21",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 34
     },
     {
@@ -36196,7 +36210,7 @@
       "department": "Department for Digital, Culture, Media and Sport",
       "tabled": "2026-09-15",
       "target": "2026-10-16",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 15
     },
     {
@@ -36361,7 +36375,7 @@
       "department": "Department for Business, Innovation, Science and Trade",
       "tabled": "2026-10-09",
       "target": "2026-10-19",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 14
     },
     {
@@ -37659,7 +37673,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-09",
       "target": "2026-10-19",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 14
     },
     {
@@ -39227,9 +39241,9 @@
     {
       "id": 1945123,
       "uin": "31299",
-      "text": "To ask the Minister for the Cabinet Office, what conflict of interest arrangements apply to AI Sector Champions who are employees of companies supplying AI services; and if she will publish the register of interests.",
+      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, what conflict of interest arrangements apply to AI Sector Champions who are employees of companies supplying AI services; and if she will publish the register of interests.",
       "type": "ordinary",
-      "department": "Cabinet Office",
+      "department": "Department for Business, Innovation, Science and Trade",
       "tabled": "2026-10-09",
       "target": "2026-10-19",
       "answered": null,
@@ -42268,7 +42282,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-09",
       "target": "2026-10-19",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 14
     },
     {
@@ -46635,7 +46649,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-12",
       "target": "2026-10-20",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 13
     },
     {
@@ -48164,7 +48178,7 @@
       "department": "Department of Health and Social Care",
       "tabled": "2026-10-14",
       "target": "2026-10-22",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 11
     },
     {
@@ -48175,7 +48189,7 @@
       "department": "Department of Health and Social Care",
       "tabled": "2026-10-14",
       "target": "2026-10-22",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 11
     },
     {
@@ -48186,7 +48200,7 @@
       "department": "Department of Health and Social Care",
       "tabled": "2026-10-14",
       "target": "2026-10-22",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 11
     },
     {
@@ -48197,7 +48211,7 @@
       "department": "Department of Health and Social Care",
       "tabled": "2026-10-14",
       "target": "2026-10-22",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 11
     },
     {
@@ -49055,7 +49069,7 @@
       "department": "Department for Digital, Culture, Media and Sport",
       "tabled": "2026-10-14",
       "target": "2026-10-22",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 11
     },
     {
@@ -50705,7 +50719,7 @@
       "department": "Ministry of Defence",
       "tabled": "2026-10-19",
       "target": "2026-10-27",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 8
     },
     {
@@ -51189,7 +51203,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-19",
       "target": "2026-10-27",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 8
     },
     {
@@ -52597,7 +52611,7 @@
       "department": "Department for Work and Pensions",
       "tabled": "2026-10-21",
       "target": "2026-10-30",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 5
     },
     {
@@ -52619,7 +52633,7 @@
       "department": "Department for Work and Pensions",
       "tabled": "2026-10-21",
       "target": "2026-10-30",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 5
     },
     {
@@ -52674,7 +52688,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-10-21",
       "target": "2026-10-30",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 5
     },
     {
@@ -53070,7 +53084,7 @@
       "department": "Department for Environment, Food and Rural Affairs",
       "tabled": "2026-10-21",
       "target": "2026-10-30",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 5
     },
     {
@@ -54445,7 +54459,7 @@
       "department": "Department for Work and Pensions",
       "tabled": "2026-10-23",
       "target": "2026-11-02",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 4
     },
     {
@@ -54599,7 +54613,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -54649,9 +54663,9 @@
     {
       "id": 1953033,
       "uin": "37821",
-      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, how digital identity and secure government communication channels are protected during administrative crises.",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, how digital identity and secure government communication channels are protected during administrative crises.",
       "type": "ordinary",
-      "department": "Department for Business, Innovation, Science and Trade",
+      "department": "Department for Digital, Culture, Media and Sport",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
       "answered": null,
@@ -55023,9 +55037,9 @@
     {
       "id": 1953296,
       "uin": "38084",
-      "text": "To ask the Chancellor of the Exchequer, what information his Department holds on which Departments have provided grant funding to (a) the Muslim Council of Britain and (b) the Muslim Council of Britain Charitable Foundation in the past two years.",
+      "text": "To ask the Minister for the Cabinet Office, what information her Department holds on which Departments have provided grant funding to (a) the Muslim Council of Britain and (b) the Muslim Council of Britain Charitable Foundation in the past two years.",
       "type": "ordinary",
-      "department": "Treasury",
+      "department": "Cabinet Office",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
       "answered": null,
@@ -55061,7 +55075,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -55072,7 +55086,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -55083,7 +55097,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -55094,7 +55108,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -55193,7 +55207,7 @@
       "department": "Ministry of Defence",
       "tabled": "2026-10-26",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -55606,9 +55620,9 @@
     {
       "id": 1953744,
       "uin": "38454",
-      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, with reference to the BEIS, Better Regulation Framework: Interim Guidance, published in February 2018, paragraph 2.3.1, whether he plans to re-issue guidance on EU transposition pr",
+      "text": "To ask the Minister for the Cabinet Office, with reference to the BEIS, Better Regulation Framework: Interim Guidance, published in February 2018, paragraph 2.3.1, whether she plans to re-issue guidance on EU transposition principles and a presumption aga",
       "type": "ordinary",
-      "department": "Department for Business, Innovation, Science and Trade",
+      "department": "Cabinet Office",
       "tabled": "2026-10-27",
       "target": "2026-11-04",
       "answered": null,
@@ -55683,9 +55697,9 @@
     {
       "id": 1953764,
       "uin": "38474",
-      "text": "To ask the Minister for the Cabinet Office, in what way differences between local resilience assessments and central government projections are met.",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, in what way differences between local resilience assessments and central government projections are met.",
       "type": "ordinary",
-      "department": "Cabinet Office",
+      "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-10-27",
       "target": "2026-11-04",
       "answered": null,
@@ -55831,7 +55845,7 @@
       "department": "Ministry of Defence",
       "tabled": "2026-10-27",
       "target": "2026-11-04",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 2
     },
     {
@@ -56117,7 +56131,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-27",
       "target": "2026-11-04",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 2
     },
     {
@@ -56207,6 +56221,1414 @@
       "target": "2026-11-04",
       "answered": "2026-11-05",
       "days_overdue": 1
+    },
+    {
+      "id": 1954130,
+      "uin": "38741",
+      "text": "To ask the Secretary of State for Scotland, how much his department has spent on accommodation for staff of agencies and other public bodies sponsored by his department, broken down by (i) UK stays and (ii) overseas stays in the 2024-25 financial year.",
+      "type": "ordinary",
+      "department": "Scotland Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954136,
+      "uin": "38747",
+      "text": "To ask the Secretary of State for Work and Pensions, what steps he is taking to support employment by increasing skills levels in the engineering, construction and trades based sectors.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954137,
+      "uin": "38748",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what steps she is taking to secure sustainable replacement funding for disabled support services following the loss of the European Social fund.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954139,
+      "uin": "38750",
+      "text": "To ask the Secretary of State for Health and Social Care, what support her Department is providing for the development of AI-enabled decision-support tools to accelerate earlier diagnosis for rare conditions that do not have a known genetic cause.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954146,
+      "uin": "38757",
+      "text": "To ask the Secretary of State for the Home Department, pursuant to the Answer of 11 June 2026 to Question 7491 on Home Office: Lanyards, how much her Department, excluding its executive agencies and arm's-length bodies, spent on lanyards in (a) 2025 and (",
+      "type": "ordinary",
+      "department": "Home Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954173,
+      "uin": "38784",
+      "text": "To ask the Secretary of State for Transport, pursuant to the Answer of 19 October 2026 to Question 34158, how much funding was secured for the low earth orbit satellite connectivity on mainline trains programme following the Spending Review; and when she ",
+      "type": "ordinary",
+      "department": "Department for Transport",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954198,
+      "uin": "38809",
+      "text": "To ask the Minister for the Cabinet Office, how international benchmarks are used to evaluate the UK's progress on national resilience.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954199,
+      "uin": "38810",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what options are open to communities if local resilience plans are deemed inadequate during public consultations.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954200,
+      "uin": "38811",
+      "text": "To ask the Minister for the Cabinet Office, what steps she is taking to improve public sector workforce retention and levels of specialist resilience skills across government departments.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954201,
+      "uin": "38812",
+      "text": "To ask the Minister for the Cabinet Office, what evaluation she has made of the cost-effectiveness of public-private partnerships within the national resilience framework.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954210,
+      "uin": "38821",
+      "text": "To ask the Minister for the Cabinet Office, what protocols govern the release of unclassified summary data from the National Situation Centre to academic and research institutions.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954215,
+      "uin": "38826",
+      "text": "To ask the Chancellor of the Exchequer, whether his Department has conducted an impact assessment of the potential impact of joining a customs union with the EU on the UK’s economy.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954216,
+      "uin": "38827",
+      "text": "To ask the Minister for the Cabinet Office, how non-governmental organizations and think tanks are consulted during reviews of the National Risk Register.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954219,
+      "uin": "38830",
+      "text": "To ask the Minister for the Cabinet Office, how international peer reviews of national resilience are integrated into policy adjustments.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954220,
+      "uin": "38831",
+      "text": "To ask the Minister for the Cabinet Office, what steps she is taking to ensure that small island and remote rural communities receive equitable emergency resource allocation.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954221,
+      "uin": "38832",
+      "text": "To ask the Chancellor of the Exchequer, whether his Department has made an assessment of the potential impact of joining the European Union's Single Market on the UK's economy.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954223,
+      "uin": "38834",
+      "text": "To ask the Minister for the Cabinet Office, what systems are in place to identify and apply lessons learned from international natural disasters and cyber attacks to UK frameworks.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954226,
+      "uin": "38837",
+      "text": "To ask the Minister for the Cabinet Office, what the benchmark of success is for the UK Government Resilience Action Plan by the end of this Parliament.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954227,
+      "uin": "38838",
+      "text": "To ask the Secretary of State for Health and Social Care, if she will make it her policy to address vulval health, including chronic vulval skin conditions such as vulval lichen sclerosus, in the implementation of the Renewed Women’s Health Strategy for E",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954228,
+      "uin": "38839",
+      "text": "To ask the Secretary of State for Health and Social Care, what assessment she has made of the effectiveness of NHS services in meeting the British Society for the Study of Vulval Disease standards of care for women with vulval conditions, and what steps s",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954230,
+      "uin": "38841",
+      "text": "To ask the Secretary of State for Health and Social Care, what steps she is taking to improve training for GPs, nurses, pharmacists and other first-contact healthcare professionals in recognising vulval conditions, and what plans she has to reduce delays ",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954237,
+      "uin": "38848",
+      "text": "To ask the Minister for the Cabinet Office, what statutory reporting schedule has been established to update Parliament on the implementation of the UK Government Resilience Action Plan.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954247,
+      "uin": "38858",
+      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, what assessment his Department has made of the potential impact of exclusion from the EU's Made in Europe programme on the UK's (a) steel and (b) energy sector.",
+      "type": "ordinary",
+      "department": "Department for Business, Innovation, Science and Trade",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954248,
+      "uin": "38859",
+      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, what mandatory incident-reporting thresholds exist for operators of essential digital services.",
+      "type": "ordinary",
+      "department": "Department for Business, Innovation, Science and Trade",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954250,
+      "uin": "38861",
+      "text": "To ask the Minister for the Cabinet Office, what steps her Department are taking to compensate and incentivize private sector operators of critical national infrastructure for holding expensive redundancy stocks.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954266,
+      "uin": "38877",
+      "text": "To ask the Secretary of State for Business, Innovation, Science and Trade, what estimate his Department has made of the cost to UK businesses of cyber attacks in each year since 2015.",
+      "type": "ordinary",
+      "department": "Department for Business, Innovation, Science and Trade",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954267,
+      "uin": "38878",
+      "text": "To ask the Minister for the Cabinet Office, what recent assessment her Department has made of trends in the number of people employed in the automobile industry.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954270,
+      "uin": "38881",
+      "text": "To ask the Secretary of State for Health and Social Care, what steps she is taking to reduce postpartum haemorrhage rates in Newbury.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954272,
+      "uin": "38883",
+      "text": "To ask the Secretary of State for Health and Social Care, whether NHS England collects data on the treatments and interventions used by individual NHS trusts to manage postpartum haemorrhage.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954286,
+      "uin": "38897",
+      "text": "To ask the Secretary of State for Justice, if he will provide a list of the job titles of staff employed in HMPPS.",
+      "type": "ordinary",
+      "department": "Ministry of Justice",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954296,
+      "uin": "38907",
+      "text": "To ask the Secretary of State for Education, what guidance her Department has issued to local authorities on determining whether childcare providers' funding arrangements require parents to purchase additional hours before or after funded sessions as a co",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954297,
+      "uin": "38908",
+      "text": "To ask the Secretary of State for Education, what steps her Department requires local authorities to take where concerns are raised that a childcare provider's allocation of funded hours may be inconsistent with the statutory guidance on early education a",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954298,
+      "uin": "38909",
+      "text": "To ask the Secretary of State for Education, whether a childcare provider may allocate funded entitlement hours exclusively to a fixed afternoon session where a child attends from the morning; and what criteria local authorities should apply when determin",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954299,
+      "uin": "38910",
+      "text": "To ask the Secretary of State for Education, what assessment her Department has made of the potential impact of restrictions on the times at which funded childcare hours can be accessed on parents' ability to (a) enter employment, (b) remain in employment",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954300,
+      "uin": "38911",
+      "text": "To ask the Secretary of State for Education, whether her Department takes steps to collect data on the number of funded childcare hours that eligible parents are unable to use because the sessions offered by childcare providers do not correspond with thei",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954301,
+      "uin": "38912",
+      "text": "To ask the Secretary of State for Education, what assessment she has made of the impact of childcare providers restricting funded childcare entitlement hours to fixed sessions on the ability of working parents to access their full entitlement.",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954304,
+      "uin": "38915",
+      "text": "To ask the Secretary of State for Transport, whether the Secretary of State would update the House on progress against the BSI PAS 7250 standard for e-bike battery safety, and on what basis the Government is engaging cycle training providers in shaping co",
+      "type": "ordinary",
+      "department": "Department for Transport",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954331,
+      "uin": "38942",
+      "text": "To ask the Secretary of State for Defence, pursuant to the answer of 27 October 2026, to question 32184 on Armed Forces: Visas, for what reason has he decided to bring forward an amendment at Third Reading to deliver a visa fee waiver.",
+      "type": "ordinary",
+      "department": "Ministry of Defence",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954339,
+      "uin": "38950",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, what plans she has to expand access to swimming in rural areas.",
+      "type": "ordinary",
+      "department": "Department for Digital, Culture, Media and Sport",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954341,
+      "uin": "38952",
+      "text": "To ask the Secretary of State for Health and Social Care, what proportion of children in (a) South Holland and the Deepings constituency and (b) Lincolnshire were able to access an NHS dentist in the last 12 months.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954351,
+      "uin": "38962",
+      "text": "To ask the Secretary of State for Health and Social Care, when her Department plans to respond to written parliamentary questions 32531, 32532 and 32967 of the 9th October 2026.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954358,
+      "uin": "38969",
+      "text": "To ask the Minister for Women and Equalities, whether she has made an estimate of the number of UK nationals or residents taken abroad for the purposes of conversion practices in each of the last five years; and what the evidential basis is for that estim",
+      "type": "ordinary",
+      "department": "Women and Equalities",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954359,
+      "uin": "38970",
+      "text": "To ask the Secretary of State for Health and Social Care, what discussions she has had with the Minister for Women and Equalities on the potential impact of the draft Conversion Practices Bill on the provision of NHS gender services.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954360,
+      "uin": "38971",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, what steps she is taking to address (a) gender inequality in sports and exercise research and (b) the availability of female health specialists at both elite and grassroots sports clubs.",
+      "type": "ordinary",
+      "department": "Department for Digital, Culture, Media and Sport",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954381,
+      "uin": "38992",
+      "text": "To ask the Secretary of State for Environment, Food and Rural Affairs, with reference to the Autumn Budget 2026 and the Defence Investment Plan, what capital reallocation she has agreed for her Department for each year of the spending review period.",
+      "type": "ordinary",
+      "department": "Department for Environment, Food and Rural Affairs",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954384,
+      "uin": "38995",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, pursuant to the answer of 18 June 2026, to Question 9034, on Islington Centres for Refugees and Migrants: Grant, what are the other activities that will be supported for the orga",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954394,
+      "uin": "39005",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, whether Homes England has spent public funds on (a) public relations or (b) public affairs, since July 2024.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954395,
+      "uin": "39006",
+      "text": "To ask the Secretary of State for Health and Social Care, what information her Department holds on the number of General Practitioners there are in Ashfield.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954397,
+      "uin": "39008",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, with reference to the Answer of 10 December 2025, to Question 96282, Affordable Housing: Construction, whether the forecast of (a) 300,000 affordable homes and (b) 180,000 social",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954398,
+      "uin": "39009",
+      "text": "To ask the Secretary of State for Health and Social Care, what assessment her Department has made of trends in the level of regional and local variation in the number of General Practitioners.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954402,
+      "uin": "39013",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, whether (a) HMRC and (b) HMRC Valuation Office will have access to the information in the new Private Rented Sector Database.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954404,
+      "uin": "39015",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, how much of the Building Safety Fund is unallocated; and what estimate she has made of the residual costs of building safety remediation.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954462,
+      "uin": "39073",
+      "text": "To ask the Secretary of State for Work and Pensions, pursuant to the answer of 9 September 2026, to Question 21097, on DWP: International Cooperation, whether (a) Ministerial private offices and (b) the Department’s Legal Directorate, hold information on ",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954468,
+      "uin": "39079",
+      "text": "To ask the Minister for the Cabinet Office, pursuant to the answer of 9 October 2026, to Question 20910, on Angling: Licensing, whether the Cabinet Office itself holds the information on communication, marketing and advertising spending control approvals ",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954470,
+      "uin": "39081",
+      "text": "To ask the Minister for the Cabinet Office, pursuant to the answer of 7 October 2026 to Question 20661 on Arms Length Bodies: Lobbying, whether those principles apply to (a) public corporations and (b) private companies owned and sponsored by government d",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954472,
+      "uin": "39083",
+      "text": "To ask the Minister for the Cabinet Office, what the timetable is for the Office for National Statistics review of the private sector classification of water companies.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954477,
+      "uin": "39088",
+      "text": "To ask the Secretary of State for Work and Pensions, if he will make an assessment of the proportion of people accessing foodbanks who receive Local Housing Allowance below the cost of their rent.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954484,
+      "uin": "39095",
+      "text": "To ask the Minister for the Cabinet Office, what was the cost to the Cabinet Office of redundancy payments to the staff members leaving through Voluntary Exit in 2025-26.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954485,
+      "uin": "39096",
+      "text": "To ask the Minister for the Cabinet Office, whether the salaries of Cabinet Office staff based in no10 north are (a) London or (b) National pay ranges, and whether transferred staff from London keep their London range.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954486,
+      "uin": "39097",
+      "text": "To ask the Minister for the Cabinet Office, whether the Prime Minister’s Ten-Year Plan will include measures to a) tackle the hardship that drives food bank need and b) deliver on the Government’s manifesto commitment to end mass dependence on emergency f",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954491,
+      "uin": "39102",
+      "text": "To ask the Secretary of State for Education, how many retired members of the Teachers’ Pension Scheme are awaiting additional lump sum payments following elections made under the McCloud Remedy; what the average processing time is for such payments; what ",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954492,
+      "uin": "39103",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, whether Fire and Rescue Services will receive joint training with the Royal Air Force regarding aerial firefighting using the Airbus A400M equipped with the roll-on/roll-off fire",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954493,
+      "uin": "39104",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what discussions she has held with the Ministry of Defence regarding training between the Royal Air Force and Fire and Rescue Services.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954505,
+      "uin": "39116",
+      "text": "To ask the Chancellor of the Exchequer, by when he plans to establish the new Innovative Defence Finance Taskforce.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954508,
+      "uin": "39119",
+      "text": "To ask the Secretary of State for Justice, what the estimated cost is of increasing capacity in the Magistrates’ Courts to meet the requirements set out in the Courts and Tribunals Bill.",
+      "type": "ordinary",
+      "department": "Ministry of Justice",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954513,
+      "uin": "39124",
+      "text": "To ask the Chancellor of the Exchequer, pursuant to the Answer of 9 October 2026 to Question 32183 on Defence: Finance, whether he plans to publish the Defence Finance and Investment Strategy prior to the establishment of the Innovative Defence Finance Ta",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954523,
+      "uin": "39134",
+      "text": "To ask the Secretary of State for Defence, with reference to the Budget 2026, page 145, Annex B: Government spending, if he will publish information setting out how lower employer pension contributions are offset by higher Exchequer funding for pensions i",
+      "type": "ordinary",
+      "department": "Ministry of Defence",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954535,
+      "uin": "39146",
+      "text": "To ask the Secretary of State for Health and Social Care, what assessment her Department has made of the adequacy of support available to families experiencing baby loss.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-28",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954632,
+      "uin": "39150",
+      "text": "To ask the Secretary of State for Health and Social Care, what assessment her Department has made of the potential merits for introducing a mandatory clinical review for patients who have received five years of continuous oral bisphosphonate therapy for o",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954641,
+      "uin": "39159",
+      "text": "To ask the Secretary of State for Environment, Food and Rural Affairs, what assessment her Department has made of dry weather spill levels from sewage overflows on the River Loddon; and whether the Environment Agency will publish river-specific dry weathe",
+      "type": "ordinary",
+      "department": "Department for Environment, Food and Rural Affairs",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954645,
+      "uin": "39163",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what assessment she has made of the potential impact of the proposed commonhold conversion process in the Commonhold and Leasehold Reform Bill on leaseholders in age-restricted r",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954652,
+      "uin": "39170",
+      "text": "To ask the Secretary of State for Environment, Food and Rural Affairs, what steps she plans to take to work with the Home Office to strengthen the enforcement of existing restrictions on illegal fire-lighting and improve the prosecution of offenders so as",
+      "type": "ordinary",
+      "department": "Department for Environment, Food and Rural Affairs",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954660,
+      "uin": "39178",
+      "text": "To ask the Minister for the Cabinet Office, Pursuant to the answer of 30 September 2026, to Question 29135, on National School of Government and Public Services: Consultants, what is the budget for the consultancy expenditure on (a) Accenture Song to deve",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954665,
+      "uin": "39183",
+      "text": "To ask the Secretary of State for Work and Pensions, what assessment he has made of the potential implications for his policies of the Mental Health Foundation’s report's findings in relation to single parents and finances; and in what way he plans to sup",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954666,
+      "uin": "39184",
+      "text": "To ask the Secretary of State for Health and Social Care, what steps her Department is taking to support people with Parkinson’s disease to participate in clinical research.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954669,
+      "uin": "39187",
+      "text": "To ask the Secretary of State for Health and Social Care, what assessment her Department has made of the potential implications for her policies of evidence relating to the safety of plastic baby feeding bottles; and whether she has plans to review existi",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954672,
+      "uin": "39190",
+      "text": "To ask the Chancellor of the Exchequer, what proportion of apprenticeship levy receipts were spent on apprenticeship training over the last 5 years.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954680,
+      "uin": "39198",
+      "text": "To ask the Minister for the Cabinet Office, with reference to the letter from the Ethics and Integrity Commission to the Prime Minister of 13 October 2026, whether she plans to adopt the recommendation that the independent adviser on ministerial standards",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954691,
+      "uin": "39209",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what steps she plans to take to support students and others who are council tax exempt with energy bills.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954698,
+      "uin": "39216",
+      "text": "To ask the Secretary of State for Education, what assessment her Department has made of the effectiveness of targeted funding interventions on levels of dependency on government aid.",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954701,
+      "uin": "39219",
+      "text": "To ask the Secretary of State for Education, what steps her Department is taking with the Department for Work and Pensions to ensure that childcare support and school funding mechanisms incentivise work for low-income households.",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954703,
+      "uin": "39221",
+      "text": "To ask the Secretary of State for Education, what discussions her Department has held with Leicester City Council on the local economic drivers for the rise in Free School Meal eligibility.",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954710,
+      "uin": "39228",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, whether she has considered increasing grant rates for affordable house builders.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954726,
+      "uin": "39244",
+      "text": "To ask the Minister for the Cabinet Office, pursuant to the Answer of 19 October 2026 to Question 30400 on Summer Internship Programme, what were the specific questions or tick boxes that applicants had to answer in order for their application to be asses",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954728,
+      "uin": "39246",
+      "text": "To ask the Minister for the Cabinet Office, with reference to the UK Government Resilience Action Plan: 2026 Implementation Report, updated 1 October 2026, how many of the 23 response capabilities assessed in the 2026 National Capabilities Assessment agai",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954729,
+      "uin": "39247",
+      "text": "To ask the Minister for the Cabinet Office, with reference to the UK Government Resilience Action Plan: 2026 Implementation Report, updated 1 October 2026, what her planned timetable is for the CNI Cyber Resilience Index to become fully operational.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954730,
+      "uin": "39248",
+      "text": "To ask the Minister for the Cabinet Office, pursuant to the answer of 9 October 2026, to Question 20541, on Cabinet Manual, whether the updating to reflect changes in legislation and practice will also including adding sections on government practices whi",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954733,
+      "uin": "39251",
+      "text": "To ask the Minister for the Cabinet Office, with reference to her Department's publication entitled, Expenditure Over £25,000 - August 2026 (Cabinet Office Core), published 24 September 2026, what was the specific property relating to the transaction, CAB",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954735,
+      "uin": "39253",
+      "text": "To ask the Minister for the Cabinet Office, with reference to the Cabinet Office transparency data, Expenditure Over £25,000 - August 2026 (Cabinet Office Core), published 24 September 2026, what was the specific position being recruited in relation to th",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954736,
+      "uin": "39254",
+      "text": "To ask the Minister for the Cabinet Office, pursuant to the answers of 14 September 2026, to Question 21102, on Department for Work and Pensions: Public Appointments, and of 21 September 2026, to Question HL3238, on Public Appointments: Political Activiti",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954742,
+      "uin": "39260",
+      "text": "To ask the Secretary of State for Health and Social Care, what criteria was used when awarding the Single Patient Record contract.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954750,
+      "uin": "39268",
+      "text": "To ask the Minister for the Cabinet Office, if she will publish a list of the contracts Government departments hold with Palantir.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954754,
+      "uin": "39272",
+      "text": "To ask the Secretary of State for Health and Social Care, what Service Development Fund funding has been allocated to cancer for (a) NHS England and (b) Cancer Alliances, including both core and targeted allocations, in the 2026/27 financial year; and wha",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954755,
+      "uin": "39273",
+      "text": "To ask the Secretary of State for Health and Social Care, how the capital funding in support of the National Cancer Plan will be allocated; and what proportion of that funding will be spent on (a) diagnostic equipment and estate, (b) treatment capacity, i",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954769,
+      "uin": "39287",
+      "text": "To ask the Secretary of State for Work and Pensions, what assessment his Department has made of the potential merits of introducing a specified maximum timescale for Mandatory Reconsideration decisions.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954772,
+      "uin": "39290",
+      "text": "To ask the Secretary of State for Work and Pensions, how much the ring-fenced apprenticeship budget was in each year since the 2023-2024 financial year; and what proportion was raised by the Apprenticeship Levy in each of those years.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954774,
+      "uin": "39292",
+      "text": "To ask the Secretary of State for Work and Pensions, how much of the apprenticeship budget has been spent by (a) apprenticeship levy payers and (b) non-levy payers in each year since 2017.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954775,
+      "uin": "39293",
+      "text": "To ask the Secretary of State for Work and Pensions, how much his Department ringfenced from the public purse for the apprenticeship budget in the (a) 2024-25 and (b) 2025-2026 financial years.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954781,
+      "uin": "39299",
+      "text": "To ask the Minister for the Cabinet Office, what information her Department holds on expenditure by arm’s-length bodies on early careers programmes in each of the last three financial years by (a) arm’s-length body and (b) type of programme, including (i)",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954786,
+      "uin": "39304",
+      "text": "To ask the Secretary of State for Work and Pensions, what assessment his Department has made of the effectiveness of measures to reduce child poverty in Northern Ireland; and what steps he is taking with the Northern Ireland Executive to improve household",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954801,
+      "uin": "39319",
+      "text": "To ask the Secretary of State for Education, what assessment her Department has made of the potential impact of short-form video design on reduced classroom concentration.",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954806,
+      "uin": "39324",
+      "text": "To ask the Secretary of State for Defence, with reference to page 4 of the UK Defence Footprint 2026, published on 27 October 2026, what assessment he has made of the affordability of the planned £298 billion defence spending programme over the next four ",
+      "type": "ordinary",
+      "department": "Ministry of Defence",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954811,
+      "uin": "39329",
+      "text": "To ask the Secretary of State for Defence, what proportion of MOD expenditure with UK industry was awarded through competitive tendering in the financial year 2025-2026.",
+      "type": "ordinary",
+      "department": "Ministry of Defence",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954813,
+      "uin": "39331",
+      "text": "To ask the Secretary of State for Work and Pensions, what consideration his department has given to the recommendations of the Minderoo report BSL is not for sale.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954814,
+      "uin": "39332",
+      "text": "To ask the Secretary of State for Work and Pensions, what steps his department is taking to ensure engagement with the UKRI-funded Sciencewise study into the use of AI for British Sign Language.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954815,
+      "uin": "39333",
+      "text": "To ask the Secretary of State for Work and Pensions, what steps his Department is taking to engage with the UKRI-funded Sciencewise study into the use of AI for British Sign Language.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954827,
+      "uin": "39345",
+      "text": "To ask the Minister for Women and Equalities, when she plans to answer Question 25003 of 10 August 2026.",
+      "type": "ordinary",
+      "department": "Women and Equalities",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954829,
+      "uin": "39347",
+      "text": "To ask the Secretary of State for Education, what assessment her Department has made of the total cost of implementing the technical and vocational education reforms announced since her appointment in July 2026, including the introduction of technical edu",
+      "type": "ordinary",
+      "department": "Department for Education",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954835,
+      "uin": "39353",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, how much funding has been allocated through the Barrow Transformation Fund since its inception.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954838,
+      "uin": "39356",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, what progress has been made on the Team Barrow transformation plan.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954841,
+      "uin": "39359",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, how many new homes are expected to be delivered through the Team Plymouth partnership.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954860,
+      "uin": "39378",
+      "text": "To ask the Secretary of State for the Home Department, how many counterfeit or forged British passports were seized in the UK in each of the last five years.",
+      "type": "ordinary",
+      "department": "Home Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954864,
+      "uin": "39382",
+      "text": "To ask the Minister for the Cabinet Office, how many civil servants have been found to hold undeclared concurrent full-time employment in each of the last five years.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954865,
+      "uin": "39383",
+      "text": "To ask the Minister for the Cabinet Office, whether she has made an assessment of the potential merits of using HMRC employment data to check public sector employees for undeclared concurrent employment.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954867,
+      "uin": "39385",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, whether she has made an assessment of the potential merits of introducing a statutory right to a free non-digital alternative for people who are required to verify their identity to acce",
+      "type": "ordinary",
+      "department": "Department for Digital, Culture, Media and Sport",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954882,
+      "uin": "39400",
+      "text": "To ask the Chancellor of the Exchequer, whether she has had discussions with the Secretary of State for Education on the potential merits of reviewing the proposed freeze on Plan 2 student loan repayment thresholds.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954891,
+      "uin": "39409",
+      "text": "To ask the Secretary of State for Work and Pensions, what assessment he has made of skills shortages in the fitted interiors sector, and what steps he is taking to increase apprenticeship uptake in this sector.",
+      "type": "ordinary",
+      "department": "Department for Work and Pensions",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954908,
+      "uin": "39426",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, whether guidance to County Football Associations permits the promotion or highlighting of a single religion within publicly funded outreach programmes.",
+      "type": "ordinary",
+      "department": "Department for Digital, Culture, Media and Sport",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954909,
+      "uin": "39427",
+      "text": "To ask the Chancellor of the Exchequer, with reference to paragraph 4.27 of the Office for Budget Responsibility’s Economic and fiscal outlook October 2026, whether HM Treasury has modelled a scenario in which the proposed Rosebank oilfield development do",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954921,
+      "uin": "39439",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, if her department will meet the cost of using the A400M for aerial firefighting via military aid to the civil authority.",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954944,
+      "uin": "39462",
+      "text": "To ask the Secretary of State for Health and Social Care, whether her Department has assessed the potential utility of requiring GPs to ask patients about environmental mould exposure.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954956,
+      "uin": "39474",
+      "text": "To ask the Minister for the Cabinet Office, on which dates the National Security Council has met since 20 July 2026.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954958,
+      "uin": "39476",
+      "text": "To ask the Minister for the Cabinet Office, which department has lead responsibility for UK cyber security policy.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954960,
+      "uin": "39478",
+      "text": "To ask the Minister for the Cabinet Office, if she will list the specific responsibilities for cyber strategy and policy of a) the Cabinet Office, b) the Department for Digital, Culture, Media and Sport, and c) other relevant Departments.",
+      "type": "ordinary",
+      "department": "Cabinet Office",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954964,
+      "uin": "39482",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, if she will publish assessments of AI-agent incidents reported to the Government and the lessons learned from those incidents.",
+      "type": "ordinary",
+      "department": "Department for Digital, Culture, Media and Sport",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954965,
+      "uin": "39483",
+      "text": "To ask the Secretary of State for Health and Social Care, under what circumstances GPs are recommended to order fungal tests for patients.",
+      "type": "ordinary",
+      "department": "Department of Health and Social Care",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954972,
+      "uin": "39490",
+      "text": "To ask the Chancellor of the Exchequer, what estimate he has made of the average financial savings of households in the Maidenhead constituency that rely on heating oil, following the suspension of tariffs on kerosene.",
+      "type": "ordinary",
+      "department": "Treasury",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
+    },
+    {
+      "id": 1954998,
+      "uin": "39516",
+      "text": "To ask the Secretary of State for Housing, Communities and Local Government, how her Department accounts for population growth, nationally significant infrastructure and changing risks when determining funding for Essex County Fire and Rescue Service; and",
+      "type": "ordinary",
+      "department": "Ministry of Housing, Communities and Local Government",
+      "tabled": "2026-10-29",
+      "target": "2026-11-06",
+      "answered": null,
+      "days_overdue": 0
     },
     {
       "id": 1930285,
@@ -58020,7 +59442,7 @@
       "department": "Ministry of Housing, Communities and Local Government",
       "tabled": "2026-09-03",
       "target": "2026-09-09",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 42
     },
     {
@@ -60099,7 +61521,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-09",
       "target": "2026-10-14",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 17
     },
     {
@@ -61722,9 +63144,9 @@
     {
       "id": 1948893,
       "uin": "34680",
-      "text": "To ask the Minister for the Cabinet Office, whether a budget has been allocated to the extension of the frontier AI hardening programme announced on 12 October 2026.",
+      "text": "To ask the Secretary of State for Digital, Culture, Media and Sport, whether a budget has been allocated to the extension of the frontier AI hardening programme announced on 12 October 2026.",
       "type": "priority",
-      "department": "Cabinet Office",
+      "department": "Department for Digital, Culture, Media and Sport",
       "tabled": "2026-10-14",
       "target": "2026-10-19",
       "answered": null,
@@ -61892,7 +63314,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-14",
       "target": "2026-10-19",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 14
     },
     {
@@ -64004,7 +65426,7 @@
       "department": "Treasury",
       "tabled": "2026-10-22",
       "target": "2026-10-27",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 8
     },
     {
@@ -64164,9 +65586,9 @@
     {
       "id": 1952682,
       "uin": "37610",
-      "text": "To ask the Minister for the Cabinet Office, how much money and staff time is dedicated to scenario planning and risk mitigation regarding loss-of-control events involving autonomous and multi-agent AI systems.",
+      "text": "To ask the Secretary of State for Digital, Culture Media and Sport, how much money and staff time is dedicated to scenario planning and risk mitigation regarding loss-of-control events involving autonomous and multi-agent AI systems.",
       "type": "priority",
-      "department": "Cabinet Office",
+      "department": "Department for Digital, Culture, Media and Sport",
       "tabled": "2026-10-23",
       "target": "2026-10-28",
       "answered": null,
@@ -64631,7 +66053,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-26",
       "target": "2026-10-29",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 6
     },
     {
@@ -64983,7 +66405,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-27",
       "target": "2026-11-02",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 4
     },
     {
@@ -64994,7 +66416,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-27",
       "target": "2026-11-02",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 4
     },
     {
@@ -65390,7 +66812,7 @@
       "department": "Department for Transport",
       "tabled": "2026-10-28",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -65500,7 +66922,7 @@
       "department": "Department for Transport",
       "tabled": "2026-10-29",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -65544,7 +66966,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-29",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -65555,7 +66977,7 @@
       "department": "Cabinet Office",
       "tabled": "2026-10-29",
       "target": "2026-11-03",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 3
     },
     {
@@ -65874,7 +67296,7 @@
       "department": "Ministry of Justice",
       "tabled": "2026-10-30",
       "target": "2026-11-04",
-      "answered": null,
+      "answered": "2026-11-06",
       "days_overdue": 2
     },
     {
