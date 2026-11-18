@@ -2,7 +2,7 @@ title: Rolling written question performance
 description: Government department counts for 30- and 90-day tabling cohorts,
   assessed using substantive answers available in the source cache.
 custom:
-  row_count: 88
+  row_count: 92
 name: performance
 type: table
 path: performance.parquet
@@ -34,17 +34,17 @@ schema:
     constraints:
       unique: false
       enum:
-      - '2026-08-20'
-      - '2026-10-19'
-    example: '2026-08-20'
+      - '2026-08-21'
+      - '2026-10-20'
+    example: '2026-08-21'
   - name: period_end
     type: string
     description: Last tabling date included, in ISO YYYY-MM-DD format.
     constraints:
       unique: false
       enum:
-      - '2026-11-17'
-    example: '2026-11-17'
+      - '2026-11-18'
+    example: '2026-11-18'
   - name: as_of_date
     type: string
     description: Date at which answers and overdue status are assessed, in ISO
@@ -52,8 +52,8 @@ schema:
     constraints:
       unique: false
       enum:
-      - '2026-11-17'
-    example: '2026-11-17'
+      - '2026-11-18'
+    example: '2026-11-18'
   - name: department_id
     type: number
     description: Parliament answering body ID; empty for the constructed
@@ -113,4 +113,4 @@ schema:
     constraints:
       unique: false
     example: '0'
-hash: 710418f9a249e47e3a86cb1ce73a2a7e
+hash: fae1e6ddb70d749836d7d33b915a70b2
